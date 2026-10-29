@@ -1,0 +1,40 @@
+{
+  "script": "SelectProjectItem(\"App\")\nPrint CodeEditorText\n",
+  "messages": [
+    {
+      "tag": "loaded-source",
+      "response": {
+        "scriptError": [
+          {
+            "type": "scriptCompilerError",
+            "line": 2,
+            "number": 31,
+            "message": "You must use the value returned by this function",
+            "location": {
+              "character": 28,
+              "endcharacter": 51,
+              "column": 0,
+              "endcolumn": 23,
+              "line": 2,
+              "endline": 2
+            }
+          },
+          {
+            "type": "scriptCompilerError",
+            "line": 3,
+            "number": 11,
+            "message": "This item does not exist",
+            "location": {
+              "character": 59,
+              "endcharacter": 73,
+              "column": 6,
+              "endcolumn": 20,
+              "line": 3,
+              "endline": 3
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

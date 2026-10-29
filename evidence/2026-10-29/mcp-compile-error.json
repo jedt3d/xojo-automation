@@ -1,0 +1,92 @@
+{
+  "command": [
+    "work/XMCP/src/Builds - XMCP/macOS ARM 64 bit/XMCP/XMCP",
+    "--docs-path",
+    "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation"
+  ],
+  "records": [
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "initialize",
+        "params": {
+          "protocolVersion": "2024-11-05",
+          "capabilities": {},
+          "clientInfo": {
+            "name": "xojo-automation-evaluation",
+            "version": "0.1.0"
+          }
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "protocolVersion": "2025-06-18",
+          "capabilities": {
+            "tools": {},
+            "resources": {}
+          },
+          "serverInfo": {
+            "name": "XMCP",
+            "version": "1.11.0"
+          }
+        }
+      },
+      "elapsedSeconds": 0.085
+    },
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "tools/call",
+        "params": {
+          "name": "analyze_project",
+          "arguments": {}
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "No errors or warnings found."
+            }
+          ]
+        }
+      },
+      "elapsedSeconds": 1.525
+    },
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "tools/call",
+        "params": {
+          "name": "run_project",
+          "arguments": {
+            "timeout": 120000
+          }
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Build errors (1):\nCode: Can't find a type with this name [App.Run] (App.Run, line 10)"
+            }
+          ],
+          "isError": true
+        }
+      },
+      "elapsedSeconds": 3.91
+    }
+  ],
+  "stderr": ""
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "DesktopButton",
+        "member": "Pressed"
+      }
+    },
+    "elapsedSeconds": 0.072,
+    "responseCharacters": 267,
+    "responseSHA256": "d2f11abcf1c91cc5bb9ec6cf1c6f8d8ea3a347f7c3f96524f6dc453440004612",
+    "isError": false,
+    "responseOpening": "DesktopButton.Pressed\n\n**Pressed**\n\n    The button has been clicked. A right- or middle-click does not trigger the Pressed event.\n\n    This code in the Pressed event handler displays a message when the button is clicked:\n\n        MessageBox(\"You clicked the button.\")"
+  },
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "DesktopButton",
+        "member": "Enabled"
+      }
+    },
+    "elapsedSeconds": 0.069,
+    "responseCharacters": 269,
+    "responseSHA256": "65b737272a4eb0d99dd00ce71c5b4aa0c495a9665abb1629eb99f68b9fa3e23d",
+    "isError": false,
+    "responseOpening": "DesktopButton.Enabled\n\n**Enabled** As Boolean\n\n    Determines if the control should be enabled when the owning window is opened. \n\n    A disabled control cannot be clicked and cannot receive the focus.\n\n    This example disables the control.\n\n        Me.Enabled = False"
+  },
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "DesktopUIControl",
+        "member": "Enabled"
+      }
+    },
+    "elapsedSeconds": 0.073,
+    "responseCharacters": 272,
+    "responseSHA256": "c51526e6820f97c19b2cae8cec54c7ff0a8d1248d00650263903643cc73146e9",
+    "isError": false,
+    "responseOpening": "DesktopUIControl.Enabled\n\n**Enabled** As Boolean\n\n    Determines if the control should be enabled when the owning window is opened. \n\n    A disabled control cannot be clicked and cannot receive the focus.\n\n    This example disables the control.\n\n        Me.Enabled = False"
+  },
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "String",
+        "member": "Left"
+      }
+    },
+    "elapsedSeconds": 0.037,
+    "responseCharacters": 785,
+    "responseSHA256": "f9e37ea18553b64f93fe9d24f8aaecdc9d194deb171cf9e934c356a1d77f0cfd",
+    "isError": false,
+    "responseOpening": "String.Left\n\n**Left**\\(count As Integer) As String\n\n    Returns the first *n* characters in a source `String`. \n\n    In most cases, `Left` returns the number of visually distinct characters you request from the left side of the `String`. However, it may not when the `String` contains characters (such as emojis and characters from some written language character sets) each of which is a visually di"
+  },
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "WebSession",
+        "member": "LazyDependencies"
+      }
+    },
+    "elapsedSeconds": 0.042,
+    "responseCharacters": 959,
+    "responseSHA256": "4a3a9d5a166ce6f2bbaeb095fe85e94f0d488da3a2a1d9a0933d607905b720ea",
+    "isError": true,
+    "responseOpening": "No member named LazyDependencies on WebSession. Available members: colormodes, allowtaborderwrap, clientheight, clienttime, clientwidth, colormode, confirmdisconnectmessage, cookies, currentpage, disconnectmessage, hashtag, identifier, interruptionmessage, isdarkmode, languagecode, languagerighttoleft, lazyloaddependencies, platform, remoteaddress, scalefactor, sendeventsinbatches, title, url, use"
+  }
+]

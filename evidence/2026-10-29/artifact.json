@@ -1,0 +1,35 @@
+{
+  "file": {
+    "exitCode": 0,
+    "stdout": "outputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke/AgenticSmoke: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64]\noutputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke/AgenticSmoke (for architecture x86_64):\tMach-O 64-bit executable x86_64\noutputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke/AgenticSmoke (for architecture arm64):\tMach-O 64-bit executable arm64\n",
+    "stderr": ""
+  },
+  "architectures": {
+    "exitCode": 0,
+    "stdout": "Architectures in the fat file: outputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke/AgenticSmoke are: x86_64 arm64 \n",
+    "stderr": ""
+  },
+  "signature": {
+    "exitCode": 1,
+    "stdout": "",
+    "stderr": "outputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke/AgenticSmoke: invalid resource directory (directory or signature have been modified)\n"
+  },
+  "signatureDetails": {
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "Executable=/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke/AgenticSmoke\nIdentifier=com.worajedt.agenticsmoke\nFormat=Mach-O universal (x86_64 arm64)\nCodeDirectory v=20400 size=7730 flags=0x2(adhoc) hashes=231+7 location=embedded\nSignature=adhoc\nInfo.plist=not bound\nTeamIdentifier=not set\nSealed Resources=none\nInternal requirements count=0 size=12\n"
+  },
+  "execution": {
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "runtimeMarker": "agentic-reloaded-v2",
+  "bundleSignature": {
+    "target": "outputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke",
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "outputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke: valid on disk\noutputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/Builds - AgenticSmoke/macOS Universal/AgenticSmoke: satisfies its Designated Requirement\n"
+  },
+  "signatureInterpretation": "The initial executable-only target was incorrect for this generic Console bundle. Containing bundle strict verification passes; signature is ad-hoc, not distribution-qualified."
+}

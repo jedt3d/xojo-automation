@@ -1,0 +1,9 @@
+{
+  "script": "Print Str(XojoVersion) + \"|\" + ProjectShellPath\n",
+  "messages": [
+    {
+      "tag": "initial-ide",
+      "response": "2026.03|"
+    }
+  ]
+}

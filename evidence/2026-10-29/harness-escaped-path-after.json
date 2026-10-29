@@ -1,0 +1,5 @@
+{
+  "rawObservedPath": "/Users/worajedt/Documents/Codex/2026\\-10\\-29/xoj/outputs/xojo\\-automation/fixtures/agentic\\-smoke/AgenticSmoke/AgenticSmoke.xojo_project",
+  "expectedPath": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/agentic-smoke/AgenticSmoke/AgenticSmoke.xojo_project",
+  "result": "accepted after shell decoding; replay of observed path, not a new IDE operation"
+}

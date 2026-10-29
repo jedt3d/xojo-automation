@@ -1,0 +1,87 @@
+{
+  "command": [
+    "work/XMCP/src/Builds - XMCP/macOS ARM 64 bit/XMCP/XMCP"
+  ],
+  "records": [
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "initialize",
+        "params": {
+          "protocolVersion": "2024-11-05",
+          "capabilities": {},
+          "clientInfo": {
+            "name": "xojo-automation-evaluation",
+            "version": "0.1.0"
+          }
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "protocolVersion": "2025-06-18",
+          "capabilities": {
+            "tools": {},
+            "resources": {}
+          },
+          "serverInfo": {
+            "name": "XMCP",
+            "version": "1.11.0"
+          }
+        }
+      },
+      "elapsedSeconds": 0.216
+    },
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "tools/call",
+        "params": {
+          "name": "get_project_info",
+          "arguments": {}
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Project: /Users/worajedt/Documents/Codex/2026\\-10\\-29/xoj/outputs/xojo\\-automation/fixtures/agentic\\-smoke/AgenticSmoke/AgenticSmoke.xojo_project\nXojo Version: 2026.03\nCurrent Location: AgenticSmoke\nLocation Type: Debugger\nSelected Item: AgenticSmoke\nProject Directory: /Users/worajedt/Documents/Codex/2026\\-10\\-29/xoj/outputs/xojo\\-automation/fixtures/agentic\\-smoke/AgenticSmoke"
+            }
+          ]
+        }
+      },
+      "elapsedSeconds": 0.304
+    },
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "tools/call",
+        "params": {
+          "name": "stop_project",
+          "arguments": {}
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Debug session stopped."
+            }
+          ]
+        }
+      },
+      "elapsedSeconds": 3.327
+    }
+  ],
+  "stderr": ""
+}

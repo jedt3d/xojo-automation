@@ -1,0 +1,64 @@
+[
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "DesktopButton"
+      }
+    },
+    "elapsedSeconds": 0.1,
+    "responseCharacters": 2843,
+    "responseSHA256": "623bb635d47e8bd9bc06d8fd8860ec7b7b08b20e7a07a230d8c3e0fe103a5a97",
+    "isError": false,
+    "containsVersionLabel": false,
+    "containsPressed": true,
+    "responseOpening": "Class\n\n=============\nDesktopButton\n=============\n\n----\n\nDescription\n-----------\nA Button is the standard button used in desktop apps. Examples are a Default button, a Cancel button or a standard button.\n\nProperties\n-------------------------"
+  },
+  {
+    "request": {
+      "name": "search_docs",
+      "arguments": {
+        "query": "Agentic Mode",
+        "max_results": 3
+      }
+    },
+    "elapsedSeconds": 0.012,
+    "responseCharacters": 1596,
+    "responseSHA256": "cef6547eadee1a66d5fecdb385802caa8ce0eea961d7582fb974e20331c9deaf",
+    "isError": false,
+    "containsVersionLabel": true,
+    "containsPressed": false,
+    "responseOpening": "Found 3 result(s) for \"Agentic Mode\" (keyword, Xojo 2026r3):\n\n--- Using AI with Xojo (Agentic Mode) > Using Agentic Mode with an existing project ---\nUsing AI with Xojo (Agentic Mode) > Using Agentic Mode with an existing project\n\nYou can a"
+  },
+  {
+    "request": {
+      "name": "search_docs",
+      "arguments": {
+        "query": "Android introspection",
+        "max_results": 3
+      }
+    },
+    "elapsedSeconds": 0.014,
+    "responseCharacters": 8791,
+    "responseSHA256": "82021486f2f3d29e22d0b8e8874652cd49d0c4f8b0a742fd5508c8536310c421",
+    "isError": false,
+    "containsVersionLabel": true,
+    "containsPressed": false,
+    "responseOpening": "Found 3 result(s) for \"Android introspection\" (keyword, Xojo 2026r3):\n\n--- Xojo 2024r3 Release Notes > Release_notes (part 12) ---\nproperty. (76829 <https://documentation.xojo.com/resources/release_notes/confidential.html>)\nAndroid: Picture"
+  },
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "DesktopButton.Pressed"
+      }
+    },
+    "elapsedSeconds": 0.895,
+    "responseCharacters": 123,
+    "responseSHA256": "130daac718a83fa4a0a3835d93af289df8e8158c803efeef0e739eb1f88e3d4e",
+    "isError": true,
+    "containsVersionLabel": false,
+    "containsPressed": true,
+    "responseOpening": "No documentation found for class: DesktopButton.Pressed. Try using search_docs or list_doc_topics to find the correct name."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "request": {
+      "name": "search_docs",
+      "arguments": {
+        "query": "Agentic Mode",
+        "max_results": 3
+      }
+    },
+    "elapsedSeconds": 3.819,
+    "responseCharacters": 3315,
+    "responseSHA256": "92ce4c9832839b32b114bcaf0d000ad79f9fa339c0babaa4b0bfc05cff7a9591",
+    "isError": false,
+    "responseOpening": "Found 4 result(s) for \"Agentic Mode\" (semantic, Xojo 2026r3):\n\n[Native Xojo Docs]\n--- Using AI with Xojo (Agentic Mode) ---\nUsing AI with Xojo (Agentic Mode)\n\nXojo's Agentic Mode lets you build your app together with an AI coding agent, such as Claude, Codex, Gemini or Muse. Instead of writing all the code yourself, yo",
+    "sectionHeadings": [
+      "--- Using AI with Xojo (Agentic Mode) ---",
+      "--- Using AI with Xojo (Agentic Mode) > Starting a new project in Agentic Mode ---",
+      "--- Xojo 2026r3 Release Notes > Release_notes (part 1) ---",
+      "--- AI QuickStart > How it works ---"
+    ]
+  },
+  {
+    "request": {
+      "name": "search_docs",
+      "arguments": {
+        "query": "first ten characters of a string",
+        "max_results": 3
+      }
+    },
+    "elapsedSeconds": 1.705,
+    "responseCharacters": 1614,
+    "responseSHA256": "a254b0c435ff0fd7c078648ef8435c33f52f182d4bb7837b4ab3fdd7572323d3",
+    "isError": false,
+    "responseOpening": "Found 2 result(s) for \"first ten characters of a string\" (semantic, Xojo 2026r3):\n\n[Native Xojo Docs]\n--- String > Overview ---\nString > Overview\n\nDataType\n\nA String is an intrinsic data type. It is a series of numeric or alphabetic characters enclosed in quotes.\n\n\n:doc:`Methods</getting_started/using_the_xojo_language",
+    "sectionHeadings": [
+      "--- String > Overview ---",
+      "--- String > Left ---"
+    ]
+  },
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "MilestoneDoesNotExistAPI"
+      }
+    },
+    "elapsedSeconds": 0.792,
+    "responseCharacters": 126,
+    "responseSHA256": "f3827bbf2d7aa7696f982b85d0f2e1aa519fb1b58d509230a3c5d50d1802217d",
+    "isError": true,
+    "responseOpening": "No documentation found for class: MilestoneDoesNotExistAPI. Try using search_docs or list_doc_topics to find the correct name.",
+    "sectionHeadings": []
+  },
+  {
+    "request": {
+      "name": "search_docs",
+      "arguments": {
+        "query": "MilestoneDoesNotExistAPI",
+        "max_results": 3
+      }
+    },
+    "elapsedSeconds": 4.689,
+    "responseCharacters": 46,
+    "responseSHA256": "2a5f5d3e542bd75b28c561accaea3966d99ab0f9f8201f999e2365ac43c3ff25",
+    "isError": false,
+    "responseOpening": "No results found for: MilestoneDoesNotExistAPI",
+    "sectionHeadings": []
+  }
+]

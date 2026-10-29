@@ -1,0 +1,221 @@
+{
+  "scope": "One macOS ARM64 host; Console fixture. Each row is a specific case, not a complete product qualification.",
+  "cases": [
+    {
+      "id": "ENV-01",
+      "status": "pass",
+      "description": "XMCP builds from pinned unchanged source on 2026r3 ARM64",
+      "evidence": [
+        "xmcp-open.json",
+        "xmcp-build.json"
+      ]
+    },
+    {
+      "id": "MCP-01",
+      "status": "pass",
+      "description": "stdio initialization and tool discovery",
+      "evidence": [
+        "mcp-baseline.json"
+      ]
+    },
+    {
+      "id": "IDE-01",
+      "status": "pass",
+      "description": "Expected fixture and IDE returned",
+      "evidence": [
+        "mcp-baseline.json"
+      ]
+    },
+    {
+      "id": "AG-01",
+      "status": "pass",
+      "description": "External reload and changed runtime marker without reopen/manual reload",
+      "evidence": [
+        "agentic-trigger.json",
+        "agentic-messages.txt"
+      ]
+    },
+    {
+      "id": "AG-02",
+      "status": "pass",
+      "description": "Agentic trigger produces missing-type error file",
+      "evidence": [
+        "agentic-compile-error.txt"
+      ]
+    },
+    {
+      "id": "DIAG-01",
+      "status": "pass",
+      "description": "Run reports compile failure; synchronized Analyze reports error/warning",
+      "evidence": [
+        "mcp-compile-error.json",
+        "mcp-analyze-known-error.json"
+      ]
+    },
+    {
+      "id": "SYNC-01",
+      "status": "gap",
+      "description": "Immediate command can observe previous loaded source/diagnostic",
+      "evidence": [
+        "mcp-compile-error.json",
+        "mcp-runtime.json",
+        "mcp-runtime-synchronized.json",
+        "agentic-messages.txt"
+      ]
+    },
+    {
+      "id": "RUN-01",
+      "status": "pass",
+      "description": "Instrumented runtime exception sentinel and stack retrieved",
+      "evidence": [
+        "mcp-runtime-log.json"
+      ]
+    },
+    {
+      "id": "RUN-02",
+      "status": "gap",
+      "description": "First immediate log read precedes log creation",
+      "evidence": [
+        "mcp-runtime-synchronized.json",
+        "mcp-runtime-log.json"
+      ]
+    },
+    {
+      "id": "RUN-03",
+      "status": "pass",
+      "description": "Live hold process stopped",
+      "evidence": [
+        "mcp-stop.json",
+        "environment.json"
+      ]
+    },
+    {
+      "id": "BUILD-01",
+      "status": "pass",
+      "description": "Universal architecture presence and native ARM64 execution",
+      "evidence": [
+        "mcp-release-build.json",
+        "artifact.json"
+      ]
+    },
+    {
+      "id": "SIGN-01",
+      "status": "pass",
+      "description": "Containing Console bundle strict ad-hoc verification; initial wrong-target failure retained",
+      "evidence": [
+        "artifact.json"
+      ]
+    },
+    {
+      "id": "DOC-01",
+      "status": "pass",
+      "description": "XDOX release checksum and post-metadata-cleanup signature acceptance",
+      "evidence": [
+        "environment.json"
+      ]
+    },
+    {
+      "id": "DOC-02",
+      "status": "pass",
+      "description": "All 16127 chunks embedded; 16102 versioned plus 25 independent",
+      "evidence": [
+        "xdox-index.json"
+      ]
+    },
+    {
+      "id": "DOC-03",
+      "status": "pass",
+      "description": "Keyword retrieval returns version-labeled documentation/history",
+      "evidence": [
+        "docs-keyword.json"
+      ]
+    },
+    {
+      "id": "DOC-04",
+      "status": "pass",
+      "description": "Full-index semantic smoke: Agentic Mode and String.Left",
+      "evidence": [
+        "docs-full-semantic.json"
+      ]
+    },
+    {
+      "id": "DOC-05",
+      "status": "pass",
+      "description": "Member lookup including tested inherited property and Web member; corrected caller contract",
+      "evidence": [
+        "docs-members.json",
+        "docs-web-member.json"
+      ]
+    },
+    {
+      "id": "DOC-06",
+      "status": "pass",
+      "description": "Unknown class/member explicit failure",
+      "evidence": [
+        "docs-full-semantic.json",
+        "docs-members.json"
+      ]
+    },
+    {
+      "id": "DOC-07",
+      "status": "pass",
+      "description": "Reranker ready; two relevant prompts and invented-API no-match smoke passed",
+      "evidence": [
+        "xdox-index-final.json",
+        "docs-reranked.json"
+      ]
+    },
+    {
+      "id": "UNIT-01",
+      "status": "pass",
+      "description": "Twelve harness checks; observed escaped-path replay corrected",
+      "evidence": [
+        "verification.json",
+        "harness-escaped-path-before.json",
+        "harness-escaped-path-after.json"
+      ]
+    },
+    {
+      "id": "CLIENT-01",
+      "status": "not_tested",
+      "description": "Native tool attachment in a fresh Codex chat",
+      "evidence": []
+    },
+    {
+      "id": "TARGET-01",
+      "status": "not_tested",
+      "description": "Windows/Linux hosts, native Intel execution, Desktop UI/Web/iOS/Android targets",
+      "evidence": []
+    },
+    {
+      "id": "DEBUG-01",
+      "status": "not_tested",
+      "description": "Live locals, watches, stepping, breakpoint control",
+      "evidence": []
+    },
+    {
+      "id": "DIST-01",
+      "status": "not_tested",
+      "description": "Developer ID distribution and notarization of fixture",
+      "evidence": []
+    },
+    {
+      "id": "CLEAN-01",
+      "status": "pass",
+      "description": "Fixture closed; debug/model processes gone; lease free",
+      "evidence": [
+        "cleanup.json"
+      ]
+    },
+    {
+      "id": "DOC-08",
+      "status": "pass",
+      "description": "After normal XDOX quit, model services stopped and keyword retrieval continued",
+      "evidence": [
+        "xdox-after-quit.json",
+        "docs-after-quit.json",
+        "cleanup.json"
+      ]
+    }
+  ]
+}

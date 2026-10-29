@@ -1,0 +1,90 @@
+{
+  "command": [
+    "work/XMCP/src/Builds - XMCP/macOS ARM 64 bit/XMCP/XMCP"
+  ],
+  "records": [
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "initialize",
+        "params": {
+          "protocolVersion": "2024-11-05",
+          "capabilities": {},
+          "clientInfo": {
+            "name": "xojo-automation-evaluation",
+            "version": "0.1.0"
+          }
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "protocolVersion": "2025-06-18",
+          "capabilities": {
+            "tools": {},
+            "resources": {}
+          },
+          "serverInfo": {
+            "name": "XMCP",
+            "version": "1.11.0"
+          }
+        }
+      },
+      "elapsedSeconds": 0.083
+    },
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "tools/call",
+        "params": {
+          "name": "run_project",
+          "arguments": {
+            "timeout": 120000
+          }
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Build errors (1):\nCode: Can't find a type with this name [App.Run] (App.Run, line 10)"
+            }
+          ],
+          "isError": true
+        }
+      },
+      "elapsedSeconds": 1.499
+    },
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "tools/call",
+        "params": {
+          "name": "get_debug_log",
+          "arguments": {}
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "No debug log found at /tmp/xmcp_debug.log. Make sure the app has an App.UnhandledException handler that writes to this path."
+            }
+          ]
+        }
+      },
+      "elapsedSeconds": 0.012
+    }
+  ],
+  "stderr": ""
+}

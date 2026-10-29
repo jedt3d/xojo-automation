@@ -1,0 +1,24 @@
+{
+  "script": "OpenFile(\"/Users/worajedt/Documents/Codex/2026-10-29/xoj/work/XMCP/src/XMCP.xojo_project\")\nPrint ProjectShellPath\n",
+  "messages": [
+    {
+      "tag": "xmcp-open",
+      "response": {
+        "openErrors": [
+          {
+            "loadError": {
+              "type": "IDE Version Conflict",
+              "projectVersion": "2026.021",
+              "ideVersion": "2026.030",
+              "severity": "warning"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tag": "xmcp-open",
+      "response": "/Users/worajedt/Documents/Codex/2026\\-10\\-29/xoj/work/XMCP/src/XMCP.xojo_project"
+    }
+  ]
+}

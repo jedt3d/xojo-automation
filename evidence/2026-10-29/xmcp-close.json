@@ -1,0 +1,9 @@
+{
+  "script": "CloseProject(False)\nPrint ProjectShellPath\n",
+  "messages": [
+    {
+      "tag": "xmcp-close",
+      "response": {}
+    }
+  ]
+}

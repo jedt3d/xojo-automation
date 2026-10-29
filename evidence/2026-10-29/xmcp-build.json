@@ -1,0 +1,9 @@
+{
+  "script": "Print BuildApp(24,False)\n",
+  "messages": [
+    {
+      "tag": "xmcp-build",
+      "response": "/Users/worajedt/Documents/Codex/2026\\-10\\-29/xoj/work/XMCP/src/Builds\\ \\-\\ XMCP/macOS\\ ARM\\ 64\\ bit/XMCP/XMCP"
+    }
+  ]
+}

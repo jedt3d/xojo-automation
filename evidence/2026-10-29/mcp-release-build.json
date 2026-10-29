@@ -1,0 +1,65 @@
+{
+  "command": [
+    "work/XMCP/src/Builds - XMCP/macOS ARM 64 bit/XMCP/XMCP"
+  ],
+  "records": [
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "initialize",
+        "params": {
+          "protocolVersion": "2025-06-18",
+          "capabilities": {},
+          "clientInfo": {
+            "name": "xojo-automation-evaluation",
+            "version": "0.1.0"
+          }
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "protocolVersion": "2025-06-18",
+          "capabilities": {
+            "tools": {},
+            "resources": {}
+          },
+          "serverInfo": {
+            "name": "XMCP",
+            "version": "1.11.0"
+          }
+        }
+      },
+      "elapsedSeconds": 0.249
+    },
+    {
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "tools/call",
+        "params": {
+          "name": "build_project",
+          "arguments": {
+            "timeout": 120000
+          }
+        }
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Build succeeded."
+            }
+          ]
+        }
+      },
+      "elapsedSeconds": 5.418
+    }
+  ],
+  "stderr": ""
+}

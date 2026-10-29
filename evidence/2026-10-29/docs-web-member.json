@@ -1,0 +1,14 @@
+{
+  "request": {
+    "name": "lookup_class",
+    "arguments": {
+      "class_name": "WebSession",
+      "member": "LazyLoadDependencies"
+    }
+  },
+  "elapsedSeconds": 0.068,
+  "responseCharacters": 492,
+  "responseSHA256": "19d282dbcc76667c1ad4bb8abb86a5f938724965c53fbf38c871ea0727e2c6c5",
+  "isError": false,
+  "responseOpening": "WebSession.LazyLoadDependencies\n\n**LazyLoadDependencies** As Boolean\n\n  If True, this experimental feature will only load the libraries upon which the web framework depends to manage the client side webpage as needed. For example, the library used to manage maps will only be loaded if the page has a WebMapViewer on it. This results in webpages loading faster.\n\n  .. important:: This feature is expe"
+}

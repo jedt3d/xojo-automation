@@ -1,0 +1,16 @@
+{
+  "system": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.15.2",
+  "xojo": {
+    "path": "/Applications/Xojo 2026 Release 3/Xojo.app",
+    "shortVersion": "26.3.0.68307",
+    "bundleVersion": "26.3.0.3.68307"
+  },
+  "fixtureDebugPIDBeforeStop": 17477,
+  "fixtureDebugProcessesAfterStop": "",
+  "xdoxArchiveDigestVerified": true,
+  "xdoxSignatureAfterRemovingFinderInfo": "codesign --verify --deep --strict: exit 0; spctl: accepted, Notarized Developer ID",
+  "xdoxSignatureBeforeRemovingFinderInfo": "failed: disallowed com.apple.FinderInfo on extracted framework",
+  "persistentCodexMCPConfigurationChanged": false
+}

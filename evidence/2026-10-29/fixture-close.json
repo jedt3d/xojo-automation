@@ -1,0 +1,9 @@
+{
+  "script": "CloseProject(False)\nPrint \"closed|\" + ProjectShellPath\n",
+  "messages": [
+    {
+      "tag": "fixture-close",
+      "response": "closed|"
+    }
+  ]
+}

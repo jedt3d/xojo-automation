@@ -1,0 +1,41 @@
+{
+  "counts": [
+    [
+      "",
+      25,
+      25
+    ],
+    [
+      "Xojo 2026r3",
+      16102,
+      16102
+    ]
+  ],
+  "metadata": {
+    "schema_version": "5",
+    "embedding_model": "nomic-embed-text-v1.5",
+    "embedding_dim": "768",
+    "docs_version": "Xojo 2026r3",
+    "active_docs_version": "Xojo 2026r3",
+    "indexed_at": "2026-10-29T13:19:15Z",
+    "pending_reindex": "0",
+    "pending_version": ""
+  },
+  "models": [
+    {
+      "name": "nomic-embed-text.gguf",
+      "bytes": 146146432
+    },
+    {
+      "name": "qwen3-reranker-4b-q8_0.gguf.part",
+      "bytes": 1693122560
+    }
+  ],
+  "8089": {
+    "status": 200,
+    "body": "{\"status\":\"ok\"}"
+  },
+  "8093": {
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  }
+}

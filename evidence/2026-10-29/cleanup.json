@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-29T06:38:05.546351+00:00",
+  "fixtureClosed": true,
+  "lastIDEObservation": "Choose a Project; no blocking dialog",
+  "testAndModelProcesses": [],
+  "guiLeaseLockFree": true,
+  "baselineRestored": true,
+  "temporaryTestFilesRemoved": [
+    "/tmp/xmcp_debug.log",
+    "/private/var/folders/df/y_0wd4jd7bz_s18h72f495200000gn/T/xojo-automation-m1-result.txt"
+  ],
+  "retainedData": "XDOX index and both completed model files retained in its application-data directory; external tool clones/builds retained in task work folder. No binaries/models/databases tracked.",
+  "persistentMCPConfigChanged": false,
+  "pluginsInstalled": false
+}

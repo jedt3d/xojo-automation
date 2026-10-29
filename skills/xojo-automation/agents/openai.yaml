@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xojo Automation"
+  short_description: "Xojo 2026r3 projects, Agentic Mode, and IDE automation."
+  default_prompt: "Use $xojo-automation to work on this Xojo project, preserving Agentic Mode, verifying reloads, consulting current control/platform docs, and using the shared GUI lease for IDE checks."

@@ -1,0 +1,63 @@
+[
+  {
+    "request": {
+      "name": "search_docs",
+      "arguments": {
+        "query": "Agentic Mode",
+        "max_results": 3
+      }
+    },
+    "elapsedSeconds": 0.798,
+    "responseCharacters": 4762,
+    "responseSHA256": "3216f0804884dd3da817fff6df4d5ddb96a3bc0cb5748df646a1007cca007236",
+    "isError": false,
+    "containsVersionLabel": true,
+    "containsStringLeft": false,
+    "responseOpening": "Found 7 result(s) for \"Agentic Mode\" (semantic, Xojo 2026r3):\nNote: one or more results below are tagged with their Xojo target platform \u2014 do not treat a result for one platform (e.g. Web-target) as confirming the same feature exists on a d",
+    "sectionHeadings": [
+      "--- Using AI with Xojo (Agentic Mode) ---",
+      "--- Using AI with Xojo (Agentic Mode) > Starting a new project in Agentic Mode ---",
+      "--- AI QuickStart > How it works ---",
+      "--- LocationNotification > Mode ---",
+      "--- Xojo 2026r3 Release Notes > Release_notes (part 1) ---",
+      "--- WebChart > Mode ---",
+      "--- MobileChart > Mode ---"
+    ]
+  },
+  {
+    "request": {
+      "name": "search_docs",
+      "arguments": {
+        "query": "first ten characters of a string",
+        "max_results": 3
+      }
+    },
+    "elapsedSeconds": 0.708,
+    "responseCharacters": 1614,
+    "responseSHA256": "a254b0c435ff0fd7c078648ef8435c33f52f182d4bb7837b4ab3fdd7572323d3",
+    "isError": false,
+    "containsVersionLabel": true,
+    "containsStringLeft": true,
+    "responseOpening": "Found 2 result(s) for \"first ten characters of a string\" (semantic, Xojo 2026r3):\n\n[Native Xojo Docs]\n--- String > Overview ---\nString > Overview\n\nDataType\n\nA String is an intrinsic data type. It is a series of numeric or alphabetic charact",
+    "sectionHeadings": [
+      "--- String > Overview ---",
+      "--- String > Left ---"
+    ]
+  },
+  {
+    "request": {
+      "name": "lookup_class",
+      "arguments": {
+        "class_name": "MilestoneDoesNotExistAPI"
+      }
+    },
+    "elapsedSeconds": 0.806,
+    "responseCharacters": 126,
+    "responseSHA256": "f3827bbf2d7aa7696f982b85d0f2e1aa519fb1b58d509230a3c5d50d1802217d",
+    "isError": true,
+    "containsVersionLabel": false,
+    "containsStringLeft": false,
+    "responseOpening": "No documentation found for class: MilestoneDoesNotExistAPI. Try using search_docs or list_doc_topics to find the correct name.",
+    "sectionHeadings": []
+  }
+]

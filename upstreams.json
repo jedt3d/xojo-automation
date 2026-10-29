@@ -1,0 +1,15 @@
+{
+  "XMCP": {
+    "repository": "https://github.com/o3jvind/XMCP",
+    "commit": "32200c34809e2ae7e218854ac60038a09df30851",
+    "version": "1.11.0",
+    "build": "Xojo 2026r3 macOS ARM64"
+  },
+  "XDOX": {
+    "repository": "https://github.com/o3jvind/XDOX",
+    "reviewedCommit": "7b906d28d0099092207d44de4a7163777bbeaa8d",
+    "testedRelease": "v0.2.0",
+    "archive": "XDOX-0.2.0.zip",
+    "sha256": "542e3a7d749eebebf92004e91a653461be195d8374c805972c82dd24909584e3"
+  }
+}

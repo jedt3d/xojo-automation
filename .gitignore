@@ -8,3 +8,19 @@ Debug*/Debug*\ Libs
 *.rbuistate
 *.xojo_uistate
 *.obsolete*
+
+# Local dependencies and evaluation scratch
+/work/
+/tools/
+/downloads/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.gguf
+*.gguf.part
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+XojoRunProject.txt
+XojoCompileErrors.txt
