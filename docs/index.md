@@ -1,5 +1,8 @@
 # Documentation
 
+- [Coordination guide](coordination.md): guarded jobs, profiles, runtime probes,
+  cancellation, late replies, cleanup and recovery.
+- [Milestone 2 report](milestone-2-coordination.md): implementation and validation.
 - [User guide](user-guide.md): setup, using the skill and tools, daily edit/run
   workflow, documentation lookup, troubleshooting, and cleanup.
 - [Developer reference](developer-reference.md): architecture, source pins,

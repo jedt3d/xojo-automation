@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "run_id": "8c6f949fad3646b6a230086311675e71",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:05:50.331797+00:00",
+  "outcome": "success",
+  "runtime_events": [
+    {
+      "run_id": "8c6f949fad3646b6a230086311675e71",
+      "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+      "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+      "stamp": "eyJydW5faWQiOiAiOGM2Zjk0OWZhZDM2NDZiNmEyMzAwODYzMTE2NzVlNzEiLCAicmV2aXNpb24iOiAiMDA1NzU0ZDBmNWZmYmNjOTIxN2E1ZTg3MjA1MDllMDUwMjk1Y2FkNmRlOWZiYjA1YzJiYzAzZmViYzcwZjA2MiIsICJwcm9qZWN0X2lkIjogImQ1ZDIwZmIwNTVkNTRlNWVlNWFhMjc3YTY0YzI2NGIwZWVkMmU1MmY2MmZkNTkzN2IxODk0N2ExZjU0NTBlZmQiLCAib3V0cHV0IjogIi9Vc2Vycy93b3JhamVkdC9Eb2N1bWVudHMvQ29kZXgvMjAyNi0xMC0yOS94b2ovb3V0cHV0cy94b2pvLWF1dG9tYXRpb24vd29yay9taWxlc3RvbmUyLzhjNmY5NDlmYWQzNjQ2YjZhMjMwMDg2MzExNjc1ZTcxL3J1bnRpbWUuanNvbmwifQ==",
+      "event": "started",
+      "message": "hold"
+    }
+  ],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 74181,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "synchronized": true,
+  "diagnostics": {
+    "run_id": "8c6f949fad3646b6a230086311675e71",
+    "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+    "text": "XCOORD_DONE|8c6f949fad3646b6a230086311675e71",
+    "is_error": false
+  },
+  "owned_processes": [
+    {
+      "pid": 74581,
+      "start": "Thu Oct 29 14:06:05 2026",
+      "executable": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.debug/CoordinatedSmoke.debug"
+    }
+  ],
+  "restore_reload_confirmed": true,
+  "source_restored": true,
+  "ended_at": "2026-10-29T07:06:12.189134+00:00"
+}

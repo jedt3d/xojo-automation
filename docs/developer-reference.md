@@ -1,5 +1,31 @@
 # Developer reference
 
+## Milestone-2 coordination layer
+
+`scripts/xojo_coordinator.py` is the client/worker entrypoint. `coordination.py`
+owns profiles, source snapshots, stamp barriers, identity guards, runtime event
+validation and cleanup. `mcp_session.py` owns one persistent, serial stdio
+connection. It refuses a normal close while a response is pending.
+
+The worker reuses `GuiLease` from the existing skill. It keeps all child pipes
+open after the foreground client returns. Compiler diagnostics are matched by
+MCP request ID and attached to a UUID/project/source revision. The runtime probe
+adds the same identities to per-job events. The coordinator does not parse a
+global IDE error/log file.
+
+The source digest normalizes only `CoordinationStamp`; it includes managed code
+and pinned inputs. Xojo tag attributes require `=` to be serialized as `\x3D`.
+Unescaped Base64 padding was truncated in the first live attempt. IDE version
+guards compare formatted strings, avoiding float-comparison warning text in
+data replies. Both discoveries are retained in the milestone-2 evidence.
+
+Use the [coordination guide](coordination.md) for the profile/runtime contract and
+the [milestone-2 report](milestone-2-coordination.md) for actual test coverage.
+New tests live under `tests/`; the original harness tests remain under the skill.
+Never induce a live pending-IPC failure before validating the transport/worker
+behavior with mocks. A permanent unresolved reply requires operator recovery;
+there is no verified forced-cancellation API.
+
 ## Architecture and ownership
 
 ```text

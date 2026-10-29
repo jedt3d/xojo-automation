@@ -1,0 +1,144 @@
+[
+  {
+    "name": "wrong-project",
+    "expected": "identity_mismatch",
+    "actual": "identity_mismatch",
+    "client_exit_code": 0,
+    "client_exit_at": "2026-10-29T07:04:26.225078+00:00",
+    "states_observed": [
+      "queued",
+      "running",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "wrong-project/result.json"
+  },
+  {
+    "name": "baseline",
+    "expected": "success",
+    "actual": "success",
+    "client_exit_code": 0,
+    "client_exit_at": "2026-10-29T07:04:26.865638+00:00",
+    "states_observed": [
+      "queued",
+      "running",
+      "cleaning",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "baseline/result.json"
+  },
+  {
+    "name": "compile-error",
+    "expected": "compile_error",
+    "actual": "compile_error",
+    "client_exit_code": 0,
+    "client_exit_at": "2026-10-29T07:04:48.752740+00:00",
+    "states_observed": [
+      "queued",
+      "running",
+      "cleaning",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "compile-error/result.json"
+  },
+  {
+    "name": "edited-source-and-stale-event",
+    "expected": "success",
+    "actual": "success",
+    "client_exit_code": 0,
+    "client_exit_at": "2026-10-29T07:05:06.529391+00:00",
+    "states_observed": [
+      "queued",
+      "running",
+      "cleaning",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "edited-source-and-stale-event/result.json"
+  },
+  {
+    "name": "runtime-error",
+    "expected": "runtime_error",
+    "actual": "runtime_error",
+    "client_exit_code": 0,
+    "client_exit_at": "2026-10-29T07:05:28.409989+00:00",
+    "states_observed": [
+      "queued",
+      "running",
+      "cleaning",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "runtime-error/result.json"
+  },
+  {
+    "name": "hold-and-stop",
+    "expected": "success",
+    "actual": "success",
+    "client_exit_code": 0,
+    "client_exit_at": "2026-10-29T07:05:50.300351+00:00",
+    "states_observed": [
+      "queued",
+      "running",
+      "cleaning",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "hold-and-stop/result.json"
+  },
+  {
+    "name": "cancel-running-app",
+    "expected": "cancelled",
+    "actual": "cancelled",
+    "client_exit_code": 0,
+    "client_exit_at": "2026-10-29T07:06:12.302140+00:00",
+    "states_observed": [
+      "queued",
+      "running",
+      "cleaning",
+      "draining",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "cancel-running-app/result.json"
+  },
+  {
+    "name": "client-deadline",
+    "expected": "deadline_exceeded",
+    "actual": "deadline_exceeded",
+    "client_exit_code": 2,
+    "client_exit_at": "2026-10-29T07:06:42.650635+00:00",
+    "states_observed": [
+      "draining",
+      "finished"
+    ],
+    "remaining_debug_processes": [],
+    "result": "client-deadline/result.json",
+    "client_stdout_after_job_header": [
+      "{",
+      "  \"schema\": 1,",
+      "  \"run_id\": \"9afafbd1006f47acaf4bfb4c79460f29\",",
+      "  \"state\": \"draining\",",
+      "  \"phase\": \"waiting-for-late-reply\",",
+      "  \"started_at\": \"2026-10-29T07:06:34.530461+00:00\",",
+      "  \"outcome\": null,",
+      "  \"runtime_events\": [],",
+      "  \"rejected_events\": [],",
+      "  \"cleanup_errors\": [],",
+      "  \"lease_acquired\": true,",
+      "  \"lease_released\": false,",
+      "  \"worker_pid\": 75290,",
+      "  \"ide_pid\": 18197,",
+      "  \"identity\": {",
+      "    \"project\": \"/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project\",",
+      "    \"version\": \"2026.03\"",
+      "  },",
+      "  \"revision\": \"005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062\",",
+      "  \"project_id\": \"d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd\",",
+      "  \"cancellation\": \"deadline_exceeded\"",
+      "}"
+    ]
+  }
+]

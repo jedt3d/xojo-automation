@@ -4,6 +4,10 @@ This repository contains a Xojo development skill, automation helpers, and a
 bounded evaluation of XMCP/XDOX. Read `README.md` for scope and
 `docs/milestone-1-evaluation.md` before extending an evaluated capability.
 
+For coordinated jobs, read `docs/coordination.md` and the milestone-2 report.
+Use `fixtures/coordinated-smoke` for those live tests. Its working files change
+during the suite; unit fixtures must stay independent of that state.
+
 - Keep observed results, upstream claims, and untested behavior distinct. Attach
   a source or evidence path to capability claims.
 - Before IDE work, read `skills/xojo-automation/references/workflow.md` and
@@ -21,6 +25,9 @@ bounded evaluation of XMCP/XDOX. Read `README.md` for scope and
 - Python helpers use the standard library. Run the affected checks and
   `python3 -m unittest discover -s skills/xojo-automation/tests -v` for harness
   changes. IDE integration claims require a live fixture result.
+- For coordinator changes run `python3 -m unittest discover -s tests -v` too.
+  Preserve in-flight worker/XMCP connections; use the cancellation command and
+  inspect draining/quarantined states before any further IDE operation.
 - For new evidence runs, use a new directory under `evidence/`. Record environment,
   source revisions, inputs, outcomes, limitations, and cleanup. Preserve failed
   and stale-result attempts alongside successful retries.

@@ -1,0 +1,22 @@
+test_cleanup_retries_only_proven_undelivered_command (test_coordination.CoordinationTests.test_cleanup_retries_only_proven_undelivered_command) ... ok
+test_concurrent_source_edit_is_preserved_not_overwritten (test_coordination.CoordinationTests.test_concurrent_source_edit_is_preserved_not_overwritten) ... ok
+test_identity_rejected_before_source_write_or_run (test_coordination.CoordinationTests.test_identity_rejected_before_source_write_or_run) ... ok
+test_late_run_reply_drains_before_stop_close_and_lease_release (test_coordination.CoordinationTests.test_late_run_reply_drains_before_stop_close_and_lease_release) ... ok
+test_other_job_cannot_acquire_shared_lease (test_coordination.CoordinationTests.test_other_job_cannot_acquire_shared_lease) ... ok
+test_padded_base64_uses_xojo_constant_escaping (test_coordination.CoordinationTests.test_padded_base64_uses_xojo_constant_escaping) ... ok
+test_partial_write_backend_holds_lease_until_expected_ide_exits (test_coordination.CoordinationTests.test_partial_write_backend_holds_lease_until_expected_ide_exits) ... ok
+test_pending_backend_reply_is_classified_before_expired_deadline (test_coordination.CoordinationTests.test_pending_backend_reply_is_classified_before_expired_deadline) ... ok
+test_pid_reuse_is_not_owned (test_coordination.CoordinationTests.test_pid_reuse_is_not_owned) ... ok
+test_pinned_manifest_change_rejected (test_coordination.CoordinationTests.test_pinned_manifest_change_rejected) ... ok
+test_preexisting_debug_app_is_not_touched (test_coordination.CoordinationTests.test_preexisting_debug_app_is_not_touched) ... ok
+test_revision_ignores_stamps_but_changes_with_code (test_coordination.CoordinationTests.test_revision_ignores_stamps_but_changes_with_code) ... ok
+test_runtime_exception_has_current_identity (test_coordination.CoordinationTests.test_runtime_exception_has_current_identity) ... ok
+test_stale_run_rejected_valid_event_and_restore_accepted (test_coordination.CoordinationTests.test_stale_run_rejected_valid_event_and_restore_accepted) ... ok
+test_unresolved_backend_holds_lease_until_expected_ide_exits (test_coordination.CoordinationTests.test_unresolved_backend_holds_lease_until_expected_ide_exits) ... ok
+test_unsynchronized_stamp_never_dispatches_run (test_coordination.CoordinationTests.test_unsynchronized_stamp_never_dispatches_run) ... ok
+test_mock_ipc_peer_stays_open_after_caller_deadline (test_coordination.LateIPCTransportTests.test_mock_ipc_peer_stays_open_after_caller_deadline) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.643s
+
+OK

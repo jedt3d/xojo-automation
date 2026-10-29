@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "run_id": "f08d465c40124da3b73b9bc623777cd5",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:11:16.772518+00:00",
+  "outcome": "cleanup_failed",
+  "runtime_events": [],
+  "rejected_events": [],
+  "cleanup_errors": [
+    "IDE stop: IPC socket not found at /tmp/XojoIDE (no socket file). | IPC socket not found at /private/tmp/XojoIDE (no socket file). | IPC socket not found at /private/var/tmp/XojoIDE (no socket file). | IPC socket not found at /var/folders/df/y_0wd4jd7bz_s18h72f495200000gn/T/XojoIDE (no socket file).",
+    "Restore reload: IPC socket not found at /tmp/XojoIDE (no socket file). | IPC socket not found at /private/tmp/XojoIDE (no socket file). | IPC socket not found at /private/var/tmp/XojoIDE (no socket file). | IPC socket not found at /var/folders/df/y_0wd4jd7bz_s18h72f495200000gn/T/XojoIDE (no socket file)."
+  ],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 81933,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "synchronized": true,
+  "diagnostics": {
+    "run_id": "f08d465c40124da3b73b9bc623777cd5",
+    "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+    "text": "XCOORD_DONE|f08d465c40124da3b73b9bc623777cd5",
+    "is_error": false
+  },
+  "owned_processes": [],
+  "error": "Job deadline/cancellation observed; cleanup follows",
+  "cancellation": "deadline_exceeded",
+  "source_restored": true,
+  "primary_outcome": "deadline_exceeded",
+  "ended_at": "2026-10-29T07:11:55.067514+00:00"
+}

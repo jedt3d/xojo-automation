@@ -1,5 +1,9 @@
 # User guide
 
+For the new guarded Console workflow, start with the [coordination guide](coordination.md).
+The commands below also document the original harness and evaluation tools;
+their direct/unguarded paths do not inherit the coordinator's synchronization.
+
 ## 1. Choose the pieces you need
 
 The **skill** supplies workflow and version-aware guidance. The **Python harness**

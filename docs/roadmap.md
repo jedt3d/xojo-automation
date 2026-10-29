@@ -3,24 +3,19 @@
 These are proposed follow-up milestones. This repository's first milestone
 evaluates existing tools; it does not implement all of the following.
 
-## Next: reliable project/run boundary
+## Milestone 2 delivered: bounded Console coordination
 
-Reuse XMCP and the existing harness. Add only the missing coordination layer:
+The [worker and profile](coordination.md) implement project/IDE guards, loaded
+revision stamps, serial XMCP operations, run-specific diagnostics and cleanup.
+The current adapter is local macOS Console/flat code items on 2026r3. Read the
+[milestone-2 report](milestone-2-coordination.md) for mock/live coverage and limits.
 
-- Expected IDE/project identity checks immediately before stateful operations.
-- The existing shared lease across all automation clients.
-- A reload-completion barrier tied to the changed item and source revision.
-- One operation in flight, bounded deadlines, and safe late-response handling.
-- Run IDs, fresh diagnostics, application readiness/completion checks, and
-  project-specific logs instead of a shared stale `/tmp` file.
-- A native MCP attachment check in a fresh agent chat, separate from stdio probes.
+Remaining integration work: native MCP attachment/proxy in a fresh agent chat,
+adapters for other project layouts/targets, and recovery after an OS crash or
+force-kill. A permanently pending IDE reply is quarantined, not automatically
+cancelled. These are not implied by successful Console jobs.
 
-Acceptance: edit a disposable project repeatedly, inject compile/runtime errors,
-and demonstrate correct source revision, diagnostic association, process stopping,
-and cleanup. Wrong-project requests must be rejected. Exercise timeout behavior
-on a mock IPC server before any live IDE failure test.
-
-## Documentation precision
+## Next: documentation precision
 
 - Keep existing member-specific lookup, including the tested inherited property;
   add explicit source/anchor and version/platform labels in returned results.

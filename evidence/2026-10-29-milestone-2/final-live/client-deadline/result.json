@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "run_id": "b6c401d1c3ed472299adcc7250a2bc57",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:11:02.977178+00:00",
+  "outcome": "deadline_exceeded",
+  "runtime_events": [],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 81735,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "cancellation": "deadline_exceeded",
+  "error": "Job deadline/cancellation observed; cleanup follows",
+  "restore_reload_confirmed": true,
+  "source_restored": true,
+  "ended_at": "2026-10-29T07:11:16.518348+00:00"
+}

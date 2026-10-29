@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "run_id": "bba5365538d447a99376bd7b6157f1fe",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:10:18.074490+00:00",
+  "outcome": "cancelled",
+  "runtime_events": [
+    {
+      "run_id": "bba5365538d447a99376bd7b6157f1fe",
+      "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+      "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+      "stamp": "eyJydW5faWQiOiAiYmJhNTM2NTUzOGQ0NDdhOTkzNzZiZDdiNjE1N2YxZmUiLCAicmV2aXNpb24iOiAiMDA1NzU0ZDBmNWZmYmNjOTIxN2E1ZTg3MjA1MDllMDUwMjk1Y2FkNmRlOWZiYjA1YzJiYzAzZmViYzcwZjA2MiIsICJwcm9qZWN0X2lkIjogImQ1ZDIwZmIwNTVkNTRlNWVlNWFhMjc3YTY0YzI2NGIwZWVkMmU1MmY2MmZkNTkzN2IxODk0N2ExZjU0NTBlZmQiLCAib3V0cHV0IjogIi9Vc2Vycy93b3JhamVkdC9Eb2N1bWVudHMvQ29kZXgvMjAyNi0xMC0yOS94b2ovb3V0cHV0cy94b2pvLWF1dG9tYXRpb24vd29yay9taWxlc3RvbmUyL2JiYTUzNjU1MzhkNDQ3YTk5Mzc2YmQ3YjYxNTdmMWZlL3J1bnRpbWUuanNvbmwifQ==",
+      "event": "started",
+      "message": "hold"
+    }
+  ],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 80553,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "synchronized": true,
+  "diagnostics": {
+    "run_id": "bba5365538d447a99376bd7b6157f1fe",
+    "revision": "005754d0f5ffbcc9217a5e8720509e050295cad6de9fbb05c2bc03febc70f062",
+    "text": "XCOORD_DONE|bba5365538d447a99376bd7b6157f1fe",
+    "is_error": false
+  },
+  "owned_processes": [
+    {
+      "pid": 80953,
+      "start": "Thu Oct 29 14:10:32 2026",
+      "executable": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.debug/CoordinatedSmoke.debug"
+    }
+  ],
+  "error": "Job deadline/cancellation observed; cleanup follows",
+  "cancellation": "cancelled",
+  "restore_reload_confirmed": true,
+  "source_restored": true,
+  "ended_at": "2026-10-29T07:10:40.052857+00:00"
+}

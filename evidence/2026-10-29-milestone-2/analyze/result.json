@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "run_id": "adac179c3a0f4c1e8eee4c6bb2bf2e1a",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:17:00.690444+00:00",
+  "outcome": "success",
+  "runtime_events": [],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 88863,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "84dc75e74c29b02242ee479147fd6201ee9b59b1e37cd518ec13b2a32fe1ed73",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "synchronized": true,
+  "diagnostics": {
+    "run_id": "adac179c3a0f4c1e8eee4c6bb2bf2e1a",
+    "revision": "84dc75e74c29b02242ee479147fd6201ee9b59b1e37cd518ec13b2a32fe1ed73",
+    "text": "XCOORD_DONE|adac179c3a0f4c1e8eee4c6bb2bf2e1a",
+    "is_error": false
+  },
+  "restore_reload_confirmed": true,
+  "source_restored": true,
+  "ended_at": "2026-10-29T07:17:15.282246+00:00"
+}

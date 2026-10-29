@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "project": "CoordinatedSmoke.xojo_project",
+  "ide_version": "2026.03",
+  "items": [
+    {
+      "name": "App",
+      "file": "App.xojo_code"
+    },
+    {
+      "name": "CoordinationProbe",
+      "file": "CoordinationProbe.xojo_code"
+    }
+  ],
+  "fixed_inputs": {
+    "CoordinatedSmoke.xojo_project": "b6cca1e149add99bb1d4a03a4b49e695a2030150cae92b5ffaf8aed34b99b42e",
+    "CoordinatedSmoke.xojo_resources": "ceaa1c615bcb1302379a24b0a032d8ea0ed431aa97159610052085860accd794",
+    "Build Automation.xojo_code": "e56489f347509a5999e29e3eefa5fb08cb6c1ef5ed907a9b0aed462bf83f7c88"
+  },
+  "debug_executable": "CoordinatedSmoke.debug/CoordinatedSmoke.debug"
+}

@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "recorded_at": "2026-10-29T08:09:43.148226+00:00",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "ide": {
+    "CFBundleShortVersionString": "26.3.0.68307",
+    "CFBundleVersion": "26.3.0.3.68307"
+  },
+  "upstreams": {
+    "pins": "../../upstreams.json",
+    "environment": "../2026-10-29/environment.json"
+  },
+  "distinct_live_scenarios": 10,
+  "accepted_scenarios": [
+    {
+      "scenario": "wrong-project",
+      "expected": "identity_mismatch",
+      "observed": "identity_mismatch",
+      "evidence": "final-live/wrong-project/result.json"
+    },
+    {
+      "scenario": "baseline",
+      "expected": "success",
+      "observed": "success",
+      "evidence": "recovery-live/baseline/result.json"
+    },
+    {
+      "scenario": "compile-error",
+      "expected": "compile_error",
+      "observed": "compile_error",
+      "evidence": "final-live/compile-error/result.json"
+    },
+    {
+      "scenario": "edited-source-and-stale-event",
+      "expected": "success",
+      "observed": "success",
+      "evidence": "final-live/edited-source-and-stale-event/result.json"
+    },
+    {
+      "scenario": "runtime-error",
+      "expected": "runtime_error",
+      "observed": "runtime_error",
+      "evidence": "final-live/runtime-error/result.json"
+    },
+    {
+      "scenario": "hold-and-stop",
+      "expected": "success",
+      "observed": "success",
+      "evidence": "final-live/hold-and-stop/result.json"
+    },
+    {
+      "scenario": "cancel-running-app",
+      "expected": "cancelled",
+      "observed": "cancelled",
+      "evidence": "final-live/cancel-running-app/result.json"
+    },
+    {
+      "scenario": "signal-worker-cancellation",
+      "expected": "cancelled",
+      "observed": "cancelled",
+      "evidence": "final-live/signal-worker-cancellation/result.json"
+    },
+    {
+      "scenario": "client-deadline",
+      "expected": "deadline_exceeded",
+      "observed": "deadline_exceeded",
+      "evidence": "final-live/client-deadline/result.json"
+    },
+    {
+      "scenario": "runtime-deadline",
+      "expected": "deadline_exceeded",
+      "observed": "deadline_exceeded",
+      "evidence": "recovery-live/runtime-deadline/result.json"
+    }
+  ],
+  "additional_analyze": "analyze/result.json",
+  "attempt_notes": {
+    "live": "Initial eight outcomes matched; test driver then failed on a missing synchronized key for an early deadline.",
+    "final-live": "Nine of ten outcomes matched; runtime-deadline failed cleanup during endpoint disappearance.",
+    "recovery-live": "Baseline and runtime-deadline matched with empty cleanup errors. Endpoint retry branch not exercised live.",
+    "development-attempts": "Version comparison warning and Base64 tag import failures plus first successful stamped run."
+  },
+  "cleanup": {
+    "stamps": {
+      "App": "UNSET",
+      "CoordinationProbe": "UNSET"
+    },
+    "scenario": "baseline",
+    "profile_hashes_valid": true,
+    "remaining_debug_processes": [],
+    "remaining_related_processes": [
+      "18197 /Applications/Xojo 2026 Release 3/Xojo.app/Contents/MacOS/Xojo"
+    ],
+    "lease_available": true,
+    "ui_observation": "CUA: disposable project closed to Choose a Project, no save prompt or blocking dialog; initial chooser state restored; Agentic Mode not toggled."
+  },
+  "limits": [
+    "Local macOS ARM64 Console/flat items only",
+    "Cooperative lease and source handoff",
+    "Opt-in runtime probe required",
+    "Permanent pending IPC quarantined; OS crash/force-kill recovery unqualified"
+  ]
+}

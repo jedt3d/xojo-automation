@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "run_id": "3aceb90c55ff42e3af9052e2f6bcf456",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:09:33.726264+00:00",
+  "outcome": "runtime_error",
+  "runtime_events": [
+    {
+      "run_id": "3aceb90c55ff42e3af9052e2f6bcf456",
+      "revision": "12dcabccfa33e2fd43bebc3a88a60100a5b76cf92d357537c0a3040d2723a3c7",
+      "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+      "stamp": "eyJydW5faWQiOiAiM2FjZWI5MGM1NWZmNDJlM2FmOTA1MmUyZjZiY2Y0NTYiLCAicmV2aXNpb24iOiAiMTJkY2FiY2NmYTMzZTJmZDQzYmViYzNhODhhNjAxMDBhNWI3NmNmOTJkMzU3NTM3YzBhMzA0MGQyNzIzYTNjNyIsICJwcm9qZWN0X2lkIjogImQ1ZDIwZmIwNTVkNTRlNWVlNWFhMjc3YTY0YzI2NGIwZWVkMmU1MmY2MmZkNTkzN2IxODk0N2ExZjU0NTBlZmQiLCAib3V0cHV0IjogIi9Vc2Vycy93b3JhamVkdC9Eb2N1bWVudHMvQ29kZXgvMjAyNi0xMC0yOS94b2ovb3V0cHV0cy94b2pvLWF1dG9tYXRpb24vd29yay9taWxlc3RvbmUyLzNhY2ViOTBjNTVmZjQyZTNhZjkwNTJlMmY2YmNmNDU2L3J1bnRpbWUuanNvbmwifQ==",
+      "event": "started",
+      "message": "runtime-error"
+    },
+    {
+      "run_id": "3aceb90c55ff42e3af9052e2f6bcf456",
+      "revision": "12dcabccfa33e2fd43bebc3a88a60100a5b76cf92d357537c0a3040d2723a3c7",
+      "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+      "stamp": "eyJydW5faWQiOiAiM2FjZWI5MGM1NWZmNDJlM2FmOTA1MmUyZjZiY2Y0NTYiLCAicmV2aXNpb24iOiAiMTJkY2FiY2NmYTMzZTJmZDQzYmViYzNhODhhNjAxMDBhNWI3NmNmOTJkMzU3NTM3YzBhMzA0MGQyNzIzYTNjNyIsICJwcm9qZWN0X2lkIjogImQ1ZDIwZmIwNTVkNTRlNWVlNWFhMjc3YTY0YzI2NGIwZWVkMmU1MmY2MmZkNTkzN2IxODk0N2ExZjU0NTBlZmQiLCAib3V0cHV0IjogIi9Vc2Vycy93b3JhamVkdC9Eb2N1bWVudHMvQ29kZXgvMjAyNi0xMC0yOS94b2ovb3V0cHV0cy94b2pvLWF1dG9tYXRpb24vd29yay9taWxlc3RvbmUyLzNhY2ViOTBjNTVmZjQyZTNhZjkwNTJlMmY2YmNmNDU2L3J1bnRpbWUuanNvbmwifQ==",
+      "event": "exception",
+      "message": "coordinated-intentional-exception",
+      "error_number": 0,
+      "stack": "RuntimeRaiseException\nApp.Event_Run%i8%o<App>A1s\n_Z36CallConsoleApplicationRunEventHelperv\nConsoleApplication._CallFunctionWithExceptionHandling%%o<ConsoleApplication>p\n_Z33CallFunctionWithExceptionHandlingPFvvE\nRuntimeRun\nREALbasic._RuntimeRun\n_Main\nmain\n"
+    }
+  ],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 79404,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "12dcabccfa33e2fd43bebc3a88a60100a5b76cf92d357537c0a3040d2723a3c7",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "synchronized": true,
+  "diagnostics": {
+    "run_id": "3aceb90c55ff42e3af9052e2f6bcf456",
+    "revision": "12dcabccfa33e2fd43bebc3a88a60100a5b76cf92d357537c0a3040d2723a3c7",
+    "text": "XCOORD_DONE|3aceb90c55ff42e3af9052e2f6bcf456",
+    "is_error": false
+  },
+  "owned_processes": [],
+  "error": "coordinated-intentional-exception",
+  "restore_reload_confirmed": true,
+  "source_restored": true,
+  "ended_at": "2026-10-29T07:09:55.454229+00:00"
+}

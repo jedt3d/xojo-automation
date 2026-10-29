@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "run_id": "dc3bd23b6a3f44058ec19036312d33c9",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:08:30.821739+00:00",
+  "outcome": "identity_mismatch",
+  "runtime_events": [],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 77920,
+  "ide_pid": 18197,
+  "error": "Connected IDE/project differs from profile",
+  "source_restored": true,
+  "ended_at": "2026-10-29T07:08:31.433559+00:00"
+}

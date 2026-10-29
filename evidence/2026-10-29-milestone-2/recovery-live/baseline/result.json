@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "run_id": "9480025bd311436cbd35cb5c6a6b04d3",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T08:06:53.023500+00:00",
+  "outcome": "success",
+  "runtime_events": [
+    {
+      "run_id": "9480025bd311436cbd35cb5c6a6b04d3",
+      "revision": "84dc75e74c29b02242ee479147fd6201ee9b59b1e37cd518ec13b2a32fe1ed73",
+      "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+      "stamp": "eyJydW5faWQiOiAiOTQ4MDAyNWJkMzExNDM2Y2JkMzVjYjVjNmE2YjA0ZDMiLCAicmV2aXNpb24iOiAiODRkYzc1ZTc0YzI5YjAyMjQyZWU0NzkxNDdmZDYyMDFlZTliNTliMWUzN2NkNTE4ZWMxM2IyYTMyZmUxZWQ3MyIsICJwcm9qZWN0X2lkIjogImQ1ZDIwZmIwNTVkNTRlNWVlNWFhMjc3YTY0YzI2NGIwZWVkMmU1MmY2MmZkNTkzN2IxODk0N2ExZjU0NTBlZmQiLCAib3V0cHV0IjogIi9Vc2Vycy93b3JhamVkdC9Eb2N1bWVudHMvQ29kZXgvMjAyNi0xMC0yOS94b2ovb3V0cHV0cy94b2pvLWF1dG9tYXRpb24vd29yay9taWxlc3RvbmUyLzk0ODAwMjViZDMxMTQzNmNiZDM1Y2I1YzZhNmIwNGQzL3J1bnRpbWUuanNvbmwifQ==",
+      "event": "started",
+      "message": "baseline"
+    },
+    {
+      "run_id": "9480025bd311436cbd35cb5c6a6b04d3",
+      "revision": "84dc75e74c29b02242ee479147fd6201ee9b59b1e37cd518ec13b2a32fe1ed73",
+      "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+      "stamp": "eyJydW5faWQiOiAiOTQ4MDAyNWJkMzExNDM2Y2JkMzVjYjVjNmE2YjA0ZDMiLCAicmV2aXNpb24iOiAiODRkYzc1ZTc0YzI5YjAyMjQyZWU0NzkxNDdmZDYyMDFlZTliNTliMWUzN2NkNTE4ZWMxM2IyYTMyZmUxZWQ3MyIsICJwcm9qZWN0X2lkIjogImQ1ZDIwZmIwNTVkNTRlNWVlNWFhMjc3YTY0YzI2NGIwZWVkMmU1MmY2MmZkNTkzN2IxODk0N2ExZjU0NTBlZmQiLCAib3V0cHV0IjogIi9Vc2Vycy93b3JhamVkdC9Eb2N1bWVudHMvQ29kZXgvMjAyNi0xMC0yOS94b2ovb3V0cHV0cy94b2pvLWF1dG9tYXRpb24vd29yay9taWxlc3RvbmUyLzk0ODAwMjViZDMxMTQzNmNiZDM1Y2I1YzZhNmIwNGQzL3J1bnRpbWUuanNvbmwifQ==",
+      "event": "completed",
+      "message": "baseline"
+    }
+  ],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 95700,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "84dc75e74c29b02242ee479147fd6201ee9b59b1e37cd518ec13b2a32fe1ed73",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "synchronized": true,
+  "diagnostics": {
+    "run_id": "9480025bd311436cbd35cb5c6a6b04d3",
+    "revision": "84dc75e74c29b02242ee479147fd6201ee9b59b1e37cd518ec13b2a32fe1ed73",
+    "text": "XCOORD_DONE|9480025bd311436cbd35cb5c6a6b04d3",
+    "is_error": false
+  },
+  "owned_processes": [
+    {
+      "pid": 96348,
+      "start": "Thu Oct 29 15:07:06 2026",
+      "executable": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.debug/CoordinatedSmoke.debug"
+    }
+  ],
+  "restore_reload_confirmed": true,
+  "source_restored": true,
+  "ended_at": "2026-10-29T08:07:13.197710+00:00"
+}

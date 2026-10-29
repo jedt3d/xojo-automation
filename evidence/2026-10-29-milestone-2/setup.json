@@ -1,0 +1,14 @@
+{
+  "initial": [
+    {
+      "tag": "m2-initial",
+      "response": "initial|"
+    }
+  ],
+  "opened": [
+    {
+      "tag": "m2-open",
+      "response": "opened|/Users/worajedt/Documents/Codex/2026\\-10\\-29/xoj/outputs/xojo\\-automation/fixtures/coordinated\\-smoke/CoordinatedSmoke.xojo_project"
+    }
+  ]
+}

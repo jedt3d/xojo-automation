@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "run_id": "21f9c2b5f05d4db19a32f2d0d3d5423e",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T07:08:53.997127+00:00",
+  "outcome": "compile_error",
+  "runtime_events": [],
+  "rejected_events": [],
+  "cleanup_errors": [],
+  "lease_acquired": true,
+  "lease_released": true,
+  "worker_pid": 78489,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "3eede57679e92f50242a397e506dd9a225ab206faa3074c7f333811e2ca67d22",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "synchronized": true,
+  "diagnostics": {
+    "run_id": "21f9c2b5f05d4db19a32f2d0d3d5423e",
+    "revision": "3eede57679e92f50242a397e506dd9a225ab206faa3074c7f333811e2ca67d22",
+    "text": "Build errors (1):\nCode: Can't find a type with this name [App.Run] (App.Run, line 2)",
+    "is_error": true
+  },
+  "error": "Build errors (1):\nCode: Can't find a type with this name [App.Run] (App.Run, line 2)",
+  "owned_processes": [],
+  "restore_reload_confirmed": true,
+  "source_restored": true,
+  "ended_at": "2026-10-29T07:09:11.503735+00:00"
+}

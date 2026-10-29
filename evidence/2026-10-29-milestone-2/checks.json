@@ -1,0 +1,63 @@
+[
+  {
+    "name": "python_compile",
+    "command": [
+      "/opt/homebrew/opt/python@3.15/bin/python3.15",
+      "-m",
+      "py_compile",
+      "scripts/coordination.py",
+      "scripts/mcp_session.py",
+      "scripts/xojo_coordinator.py",
+      "scripts/test_live_coordination.py",
+      "tests/test_coordination.py"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "name": "packaged_skill",
+    "command": [
+      "uv",
+      "run",
+      "--no-project",
+      "--with",
+      "pyyaml",
+      "python",
+      "/Users/worajedt/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "skills/xojo-automation"
+    ],
+    "exit_code": 0,
+    "output": "Skill is valid!\n"
+  },
+  {
+    "name": "staged_whitespace",
+    "command": [
+      "git",
+      "diff",
+      "--cached",
+      "--check"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "name": "coordinator_tests",
+    "count": 17,
+    "result": "passed",
+    "evidence": "coordinator-tests.txt"
+  },
+  {
+    "name": "harness_tests",
+    "count": 12,
+    "result": "passed",
+    "evidence": "harness-tests.txt"
+  },
+  {
+    "name": "staged_scope",
+    "files": 166,
+    "binary_inputs": [
+      "fixtures/coordinated-smoke/CoordinatedSmoke.xojo_resources (12 bytes)"
+    ],
+    "result": "source, docs, fixtures and bounded raw evidence only; no generated builds, models, executables or doc database"
+  }
+]

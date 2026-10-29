@@ -55,6 +55,7 @@ No confirmation is needed. Please avoid mouse and keyboard input until I report 
 
 ## Choose A Reference
 
+- An opt-in coordinated Console profile in a toolkit checkout: read `references/coordination.md` for the guarded worker, source stamps, fresh run diagnostics and deadline/cleanup behavior. Other profiles use the existing workflow until validated.
 - XMCP/XDOX selection or Agentic Mode integration: read `references/mcp-evaluation.md` for the tested versions, schemas, synchronization boundaries, and remaining integration work.
 - Real user workflow, Agentic Mode reloads, manual reload fallbacks, and portability: read `references/workflow.md`.
 - 2026r1 through 2026r3 control additions, API changes, platform requirements, and migration pitfalls: read `references/2026-changes.md`; follow its local documentation pointers for exact signatures.

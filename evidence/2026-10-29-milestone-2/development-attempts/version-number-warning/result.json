@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "run_id": "bd2be23c210c40bc8f3bb7b9090a4290",
+  "state": "finished",
+  "phase": "finished",
+  "started_at": "2026-10-29T06:58:09.599636+00:00",
+  "outcome": "cleanup_failed",
+  "runtime_events": [],
+  "rejected_events": [],
+  "cleanup_errors": [
+    "Restore reload: IDE did not load all requested revision stamps"
+  ],
+  "lease_released": true,
+  "worker_pid": 63122,
+  "ide_pid": 18197,
+  "identity": {
+    "project": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/fixtures/coordinated-smoke/CoordinatedSmoke.xojo_project",
+    "version": "2026.03"
+  },
+  "revision": "84dc75e74c29b02242ee479147fd6201ee9b59b1e37cd518ec13b2a32fe1ed73",
+  "project_id": "d5d20fb055d54e5ee5aa277a64c264b0eed2e52f62fd5937b18947a1f5450efd",
+  "error": "IDE did not load all requested revision stamps",
+  "source_restored": true,
+  "primary_outcome": "sync_timeout",
+  "ended_at": "2026-10-29T06:58:47.809215+00:00"
+}

@@ -1,5 +1,9 @@
 # XMCP and XDOX evaluation
 
+For the subsequent opt-in Console coordination worker, read `coordination.md`.
+The findings below retain the milestone-1 baseline; the legacy harness alone
+does not gain the worker's reload/run isolation guarantees.
+
 The repository's [milestone report](../../../docs/milestone-1-evaluation.md)
 and [evidence manifest](../../../evidence/2026-10-29/manifest.json) are the source
 of truth for the 2026r3 macOS ARM64 evaluation. Upstream revisions are pinned in

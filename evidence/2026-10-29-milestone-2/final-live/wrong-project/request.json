@@ -1,0 +1,12 @@
+{
+  "run_id": "dc3bd23b6a3f44058ec19036312d33c9",
+  "directory": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/work/milestone2/dc3bd23b6a3f44058ec19036312d33c9",
+  "profile": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/outputs/xojo-automation/work/milestone2-wrong-project/coordination.json",
+  "xmcp": "/Users/worajedt/Documents/Codex/2026-10-29/xoj/work/XMCP/src/Builds - XMCP/macOS ARM 64 bit/XMCP/XMCP",
+  "ide_app": "/Applications/Xojo 2026 Release 3/Xojo.app",
+  "operation": "run",
+  "completion": "completed",
+  "timeout": 120.0,
+  "sync_timeout": 15,
+  "lease": "/private/tmp/xojo-gui-automation.lock"
+}
