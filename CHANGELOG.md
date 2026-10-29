@@ -2,6 +2,21 @@
 
 ## Unreleased — 2026-10-29
 
+### Milestone 3 — documentation precision
+
+- Add a read-only adapter over XDOX's existing FTS5 index, with explicit registered
+  corpus/version, project type and runtime/server OS per request.
+- Return installed source file/line/hash, RST member labels and verified local
+  HTML fragments; preserve parent-member references and deprecation notices.
+- Filter known target mismatches, keep unresolved availability unknown, and
+  distinguish historical release notes from the selected corpus version.
+- Reject missing/unindexed versions and changed corpus/source inputs; leave
+  XDOX's global picker, notes, database and model services unchanged.
+- Add a 23-case cross-platform documentation benchmark, 20 lookup regressions,
+  guides, source/contract review and retained failed/accepted benchmark evidence.
+- Keep hybrid/reranker qualification, real multi-version installations, native
+  MCP integration and target runtime validation outside this milestone.
+
 ### Milestone 2 — coordinated Console jobs
 
 - Add a lease-owning worker over persistent XMCP stdio sessions, with guarded

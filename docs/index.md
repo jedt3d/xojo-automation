@@ -14,3 +14,6 @@
 - [Release timeline](release-timeline.html): standalone offline interactive view
   of the reviewed 2024–2026 changes. It is a curated history, not an exhaustive
   API support database.
+
+- [Versioned documentation lookup](documentation-lookup.md): corpus registration, target labels and source evidence.
+- [Milestone-3 report](milestone-3-documentation.md): retrieval benchmark, regressions and limits.

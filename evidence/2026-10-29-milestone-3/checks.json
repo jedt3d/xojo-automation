@@ -1,0 +1,58 @@
+[
+  {
+    "name": "compile",
+    "command": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/xdox_lookup.py",
+      "scripts/benchmark_docs.py",
+      "tests/test_xdox_lookup.py"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "name": "skill",
+    "command": [
+      "uv",
+      "run",
+      "--no-project",
+      "--with",
+      "pyyaml",
+      "python",
+      "/Users/worajedt/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "skills/xojo-automation"
+    ],
+    "exit_code": 0,
+    "output": "Skill is valid!\n"
+  },
+  {
+    "name": "whitespace",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "name": "tests.txt",
+    "tests": 37,
+    "status": "passed"
+  },
+  {
+    "name": "harness-tests.txt",
+    "tests": 12,
+    "status": "passed"
+  },
+  {
+    "name": "live_benchmark",
+    "passed": 23,
+    "total": 23,
+    "evidence": "verified-benchmark/summary.json",
+    "corpus": "Xojo 2026r3",
+    "target_execution_tested": false
+  }
+]

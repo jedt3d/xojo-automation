@@ -1,0 +1,177 @@
+{
+  "case": {
+    "id": "android-history",
+    "version": "2026r3",
+    "project_type": "mobile",
+    "platform": "android",
+    "operation": "search",
+    "query": "Android introspection",
+    "max_results": 3,
+    "expected": {
+      "status": "found",
+      "availability": "unknown",
+      "source_suffix": "resources/release_notes/2024r3.rst.txt",
+      "kind": "release_notes",
+      "historical_release": "2024r3",
+      "text_contains": "introspection"
+    }
+  },
+  "result": {
+    "schema": 1,
+    "operation": "search",
+    "request": {
+      "query": "Android introspection",
+      "max_results": 3
+    },
+    "corpus": {
+      "id": "2026r3",
+      "label": "Xojo 2026r3",
+      "root": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation",
+      "llms_sha256": "9c5e6184a4ee80477b5097967d2582fc01bccac9361c88185044c7a30b76a094"
+    },
+    "target": {
+      "project_type": "mobile",
+      "platform": "android",
+      "platform_role": "runtime"
+    },
+    "host": {
+      "system": "Darwin",
+      "architecture": "arm64"
+    },
+    "results": [
+      {
+        "title": "Xojo 2024r3 Release Notes > Release_notes (part 12)",
+        "kind": "release_notes",
+        "corpus_version": "Xojo 2026r3",
+        "target": {
+          "project_type": "mobile",
+          "platform": "android",
+          "platform_role": "runtime"
+        },
+        "availability": "unknown",
+        "availability_basis": "No explicit compatible table; scope is unresolved.",
+        "compatibility": {},
+        "historical_release": "2024r3",
+        "compatibility_sources": [],
+        "deprecated": false,
+        "deprecation_notices": [],
+        "source": {
+          "file": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation/_sources/resources/release_notes/2024r3.rst.txt",
+          "relative_file": "_sources/resources/release_notes/2024r3.rst.txt",
+          "line_start": 168,
+          "line_end": 181,
+          "sha256": "3ed398183a19d1c1cf9e67bb88a8af7d3dbd8523fb18102f3e24eb1b167ff47e",
+          "anchor": null,
+          "html_anchor": null,
+          "online_url": "https://documentation.xojo.com/resources/release_notes/2024r3.html",
+          "online_version_warning": "Live website may differ; local file/hash defines this corpus."
+        },
+        "text": "* **Android**: Added missing FolderItem.DisplayName property. (`76829 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Picture.RGBSurface property now shows as read-only in introspection. (`76837 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: SQLiteDatabase.LibraryVersion now shows as read-only in introspection. (`76836 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: TCPSocket.ByteAvailable, BytesLeftToSend and RemoteAddress now show as read-only in introspection. (`76835 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: StackFrame.Address and Name properties now show as read-only in introspection. (`76832 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: SocketCore.IsConnected and LocalAddress now show as read-only in introspection. (`76830 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: TypeInfo.GetElementType now works with arrays. (`76802 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: SQLiteDatabse.IsConnected now returns True when connected to an in-memory DB. (`76735 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: String.MiddleBytes now returns  instead of an OutOfBoundsException when the values are outside the string's range. (`76697 <https://tracker.xojo.com/xojoinc/xojo/-/issues/76697>`_) \n* **Android**: Raise an InvalidArgumentException when accessing Column values outside the RowSet range to match desktop behavior. (`76609 <https://tracker.xojo.com/xojoinc/xojo/-/issues/76609>`_) \n* **Android**: Added ReadError() and EOF() methods to Readable interface for compatibility with other platforms. Updated the classes that use Readable (BinaryStream, TCPSocket and TextInputStream) to include the new methods. (`76387 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed a compile error that could occur when subclassing System.DeviceData or System.VersionData. (`76366 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed a compile error that could occur when subclassing Point. (`76365 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed a compile error that could occur when subleasing MobileToolbarButton. (`76364 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) ",
+        "text_truncated": false,
+        "index_hit": {
+          "chunk_id": 15743,
+          "title": "Xojo 2024r3 Release Notes > Release_notes (part 12)",
+          "source": "llms-full.txt > Xojo 2024r3 Release Notes",
+          "docs_version": "Xojo 2026r3",
+          "sha256": "a4070c6f30d471cdb7cb7a79bac08bf0f8ad70998ca47c6a0cc19591c76393d4",
+          "bm25": -12.335276963289422,
+          "mapping": "unique_normalized_source_line",
+          "text_origin": "installed RST; chunk used for ranking only"
+        }
+      },
+      {
+        "title": "Xojo 2026r3 Release Notes > Release_notes (part 18)",
+        "kind": "release_notes",
+        "corpus_version": "Xojo 2026r3",
+        "target": {
+          "project_type": "mobile",
+          "platform": "android",
+          "platform_role": "runtime"
+        },
+        "availability": "unknown",
+        "availability_basis": "No explicit compatible table; scope is unresolved.",
+        "compatibility": {},
+        "historical_release": "2026r3",
+        "compatibility_sources": [],
+        "deprecated": false,
+        "deprecation_notices": [],
+        "source": {
+          "file": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation/_sources/resources/release_notes/2026r3.rst.txt",
+          "relative_file": "_sources/resources/release_notes/2026r3.rst.txt",
+          "line_start": 235,
+          "line_end": 248,
+          "sha256": "2ea3a37f88d35d1560158f02b99f12eac5f6166c0db016de7f5977d16a8772c4",
+          "anchor": null,
+          "html_anchor": null,
+          "online_url": "https://documentation.xojo.com/resources/release_notes/2026r3.html",
+          "online_version_warning": "Live website may differ; local file/hash defines this corpus."
+        },
+        "text": "************\n\n* **Android**: Significantly reduced size of built Android apps by enabling shrinking and obfuscation. Default optimization allows Xojo introspection to work. Moderate optimization disables introspection on the Xojo framework. Aggressive optimization disables introspection on the Xojo framework and the user project. This should allow Xojo apps to pass the Play Store DEX optimization requirements going into effect in Feb 2027. (`82039 <https://tracker.xojo.com/xojoinc/xojo/-/issues/82039>`_) \n\n\nResolved Issues\n***************\n\n* Updated Delegate.Invoke to treat weak-referenced instance methods that have gone out of scope as no-ops rather than raising a NilObjectException. This avoids an unhelpful exception which gives the debugger no meaningful code location to display. (`81785 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed an Android compile error that could occur when using the Array function with some expressions. (`81950 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed a compile error that could occur when subclassing a MobileScreen layout. (`81926 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed some compiler errors that could occur when using Global with framework classes and with arrays. (`81855 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Multidimensional array properties are now initialized to the specified size. (`81849 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed a compile error that would occur when instantiating a control subclass from code. (`81887 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) ",
+        "text_truncated": false,
+        "index_hit": {
+          "chunk_id": 15463,
+          "title": "Xojo 2026r3 Release Notes > Release_notes (part 18)",
+          "source": "llms-full.txt > Xojo 2026r3 Release Notes",
+          "docs_version": "Xojo 2026r3",
+          "sha256": "bcd8c1e7e4258eef221baf24679c4a5c9f66eb26d9053beba8795495ab8afdc8",
+          "bm25": -11.410498471023033,
+          "mapping": "unique_normalized_source_line",
+          "text_origin": "installed RST; chunk used for ranking only"
+        }
+      },
+      {
+        "title": "Xojo 2025r3 Release Notes > Release_notes (part 16)",
+        "kind": "release_notes",
+        "corpus_version": "Xojo 2026r3",
+        "target": {
+          "project_type": "mobile",
+          "platform": "android",
+          "platform_role": "runtime"
+        },
+        "availability": "unknown",
+        "availability_basis": "No explicit compatible table; scope is unresolved.",
+        "compatibility": {},
+        "historical_release": "2025r3",
+        "compatibility_sources": [],
+        "deprecated": false,
+        "deprecation_notices": [],
+        "source": {
+          "file": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation/_sources/resources/release_notes/2025r3.rst.txt",
+          "relative_file": "_sources/resources/release_notes/2025r3.rst.txt",
+          "line_start": 211,
+          "line_end": 224,
+          "sha256": "dabb9f230fb3a9eb9d334177a4baa36fadb054c1c47aad2868c24db0b30c085d",
+          "anchor": null,
+          "html_anchor": null,
+          "online_url": "https://documentation.xojo.com/resources/release_notes/2025r3.html",
+          "online_version_warning": "Live website may differ; local file/hash defines this corpus."
+        },
+        "text": "* **Android**: Avoid an internal framework exception that could occur in some situations when changing MobileContainer.Visible. (`79935 <https://tracker.xojo.com/xojoinc/xojo/-/issues/79935>`_) \n* **Android**: Thread.UserInterfaceUpdate event is now called for threads that are created in code. (`79214 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Fixed wrong Return type of ConstructorInfo.Invoke() for introspection. (`73757 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: AttributeInfo should not have a Super. (`79959 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: MobileSegmentedButton.ResizeSegmentsToFit() now takes into account the system font scaling. (`79781 <https://tracker.xojo.com/xojoinc/xojo/-/issues/79781>`_) \n* **Android**: JSONItem.Lookup now properly returns the default value. (`79400 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Prevent an InvalidArgumentException when processing Inf, -Inf and NaN using Double.FromString() or Parse(). (`79850 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: MobileImageViewer.DisplayModes.ScaleAspectFit now better matches expected scaling behavior. (`79892 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Pre-defined MobileToolbarButton.Types are now Dark Mode ready. (`79809 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: MobileSegmentedButton.ResizeSegmentsToFit method now better adjusts sizes so the rightmost button is not cut off slightly. (`79747 <https://tracker.xojo.com/xojoinc/xojo/-/issues/79747>`_) \n* **Android**: Added TargetWinUI constant, which is always False with Android. (`79771 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: MobileMapViewer now properly returns MobileUIControl as its base type with introspection. (`79764 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: AndroidMobileUserControl now properly returns MobileUIControl as its base type with introspection. (`79765 <https://documentation.xojo.com/resources/release_notes/confidential.html>`_) \n* **Android**: Updated Android SQLite to 3.50.4 and re-enabled encryption support. (`79758 <https://tracker.xojo.com/xojoinc/xojo/-/issues/79758>`_) ",
+        "text_truncated": false,
+        "index_hit": {
+          "chunk_id": 15845,
+          "title": "Xojo 2025r3 Release Notes > Release_notes (part 16)",
+          "source": "llms-full.txt > Xojo 2025r3 Release Notes",
+          "docs_version": "Xojo 2026r3",
+          "sha256": "686894fc2c6ef0c2f8bc8ce9e2ae96f81e4ad37ca439845ef1ffeff90be48869",
+          "bm25": -11.324758752066055,
+          "mapping": "unique_normalized_source_line",
+          "text_origin": "installed RST; chunk used for ranking only"
+        }
+      }
+    ],
+    "availability": "unknown",
+    "status": "found",
+    "limitation": "Documentation evidence only; no target compilation or execution.",
+    "retrieval": {
+      "tier": "xdox_fts5_bm25",
+      "database": "/Users/worajedt/Library/Application Support/dk.o3jvind.xdox/xdox.db",
+      "version_filter": "Xojo 2026r3",
+      "candidate_limit": 200,
+      "includes_version_independent_chunks": false,
+      "excluded_target_mismatches": 0,
+      "unresolved_sources": 0
+    }
+  },
+  "assessment_error": null
+}

@@ -1,5 +1,9 @@
 # XMCP and XDOX evaluation
 
+For the repository's subsequent version/target-scoped documentation adapter,
+read `documentation-lookup.md`. Its guarantees apply to that CLI, not unchanged
+native XMCP requests.
+
 For the subsequent opt-in Console coordination worker, read `coordination.md`.
 The findings below retain the milestone-1 baseline; the legacy harness alone
 does not gain the worker's reload/run isolation guarantees.

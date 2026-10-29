@@ -1,0 +1,348 @@
+{
+  "schema": 1,
+  "scope": "Documentation retrieval only; no runtime or semantic quality qualification. Curated cases, not a statistical sample.",
+  "cases": [
+    {
+      "id": "desktop-inherited-macos",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "lookup",
+      "class_name": "DesktopButton",
+      "member": "Enabled",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "source_suffix": "api/user_interface/desktop/desktopbutton.rst.txt",
+        "anchor": "desktopbutton.enabled",
+        "parent": "DesktopUIControl",
+        "text_contains": "enabled"
+      }
+    },
+    {
+      "id": "console-run-macos",
+      "version": "2026r3",
+      "project_type": "console",
+      "platform": "macos",
+      "operation": "lookup",
+      "class_name": "ConsoleApplication",
+      "member": "Run",
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "source_suffix": "api/console/consoleapplication.rst.txt",
+        "anchor": "consoleapplication.run"
+      },
+      "rationale": "Run has OS-specific argument encoding/escaping prose. Conservative availability requires source review; the Compatibility table is retained separately."
+    },
+    {
+      "id": "desktop-inherited-windows",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "windows",
+      "operation": "lookup",
+      "class_name": "DesktopButton",
+      "member": "Enabled",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "source_suffix": "api/user_interface/desktop/desktopbutton.rst.txt",
+        "anchor": "desktopbutton.enabled",
+        "parent": "DesktopUIControl",
+        "text_contains": "enabled"
+      }
+    },
+    {
+      "id": "console-run-windows",
+      "version": "2026r3",
+      "project_type": "console",
+      "platform": "windows",
+      "operation": "lookup",
+      "class_name": "ConsoleApplication",
+      "member": "Run",
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "source_suffix": "api/console/consoleapplication.rst.txt",
+        "anchor": "consoleapplication.run"
+      },
+      "rationale": "Run has OS-specific argument encoding/escaping prose. Conservative availability requires source review; the Compatibility table is retained separately."
+    },
+    {
+      "id": "desktop-inherited-linux",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "linux",
+      "operation": "lookup",
+      "class_name": "DesktopButton",
+      "member": "Enabled",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "source_suffix": "api/user_interface/desktop/desktopbutton.rst.txt",
+        "anchor": "desktopbutton.enabled",
+        "parent": "DesktopUIControl",
+        "text_contains": "enabled"
+      }
+    },
+    {
+      "id": "console-run-linux",
+      "version": "2026r3",
+      "project_type": "console",
+      "platform": "linux",
+      "operation": "lookup",
+      "class_name": "ConsoleApplication",
+      "member": "Run",
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "source_suffix": "api/console/consoleapplication.rst.txt",
+        "anchor": "consoleapplication.run"
+      },
+      "rationale": "Run has OS-specific argument encoding/escaping prose. Conservative availability requires source review; the Compatibility table is retained separately."
+    },
+    {
+      "id": "desktop-os-only-macos",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "lookup",
+      "class_name": "DesktopButton",
+      "member": "MacButtonStyle",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "text_contains": "macOS-only"
+      }
+    },
+    {
+      "id": "desktop-os-only-windows",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "windows",
+      "operation": "lookup",
+      "class_name": "DesktopButton",
+      "member": "MacButtonStyle",
+      "expected": {
+        "status": "found",
+        "availability": "documented_incompatible",
+        "text_contains": "macOS-only"
+      }
+    },
+    {
+      "id": "desktop-os-only-linux",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "linux",
+      "operation": "lookup",
+      "class_name": "DesktopButton",
+      "member": "MacButtonStyle",
+      "expected": {
+        "status": "found",
+        "availability": "documented_incompatible",
+        "text_contains": "macOS-only"
+      }
+    },
+    {
+      "id": "mobile-pressed-ios",
+      "version": "2026r3",
+      "project_type": "mobile",
+      "platform": "ios",
+      "operation": "lookup",
+      "class_name": "MobileButton",
+      "member": "Pressed",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "source_suffix": "api/user_interface/mobile/mobilebutton.rst.txt",
+        "anchor": "mobilebutton.pressed"
+      }
+    },
+    {
+      "id": "mobile-pressed-android",
+      "version": "2026r3",
+      "project_type": "mobile",
+      "platform": "android",
+      "operation": "lookup",
+      "class_name": "MobileButton",
+      "member": "Pressed",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "source_suffix": "api/user_interface/mobile/mobilebutton.rst.txt",
+        "anchor": "mobilebutton.pressed"
+      }
+    },
+    {
+      "id": "web-lazy-dependencies",
+      "version": "2026r3",
+      "project_type": "web",
+      "platform": "linux",
+      "operation": "lookup",
+      "class_name": "WebSession",
+      "member": "LazyLoadDependencies",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "source_suffix": "api/web/websession.rst.txt",
+        "text_contains": "experimental"
+      }
+    },
+    {
+      "id": "web-api-wrong-project",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "windows",
+      "operation": "lookup",
+      "class_name": "WebSession",
+      "member": "LazyLoadDependencies",
+      "expected": {
+        "status": "found",
+        "availability": "documented_incompatible"
+      }
+    },
+    {
+      "id": "string-characters",
+      "version": "2026r3",
+      "project_type": "console",
+      "platform": "linux",
+      "operation": "lookup",
+      "class_name": "String",
+      "member": "Left",
+      "expected": {
+        "status": "found",
+        "availability": "documented_compatible",
+        "text_contains": "characters"
+      }
+    },
+    {
+      "id": "deprecated-api1",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "lookup",
+      "class_name": "PushButton",
+      "member": "Action",
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "deprecated": true,
+        "notice_contains": "DesktopButton"
+      }
+    },
+    {
+      "id": "missing-class",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "lookup",
+      "class_name": "InventedMilestoneThreeClassXYZ",
+      "expected": {
+        "status": "no_match",
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "missing-member",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "lookup",
+      "class_name": "String",
+      "member": "InventedMemberXYZ",
+      "expected": {
+        "status": "no_match",
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "agentic-guide",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "search",
+      "query": "Agentic Mode",
+      "max_results": 3,
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "source_suffix": "getting_started/using_the_ide/agentic_mode.rst.txt",
+        "text_contains": "Agentic Mode"
+      }
+    },
+    {
+      "id": "android-history",
+      "version": "2026r3",
+      "project_type": "mobile",
+      "platform": "android",
+      "operation": "search",
+      "query": "Android introspection",
+      "max_results": 3,
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "source_suffix": "resources/release_notes/2024r3.rst.txt",
+        "kind": "release_notes",
+        "historical_release": "2024r3",
+        "text_contains": "introspection"
+      }
+    },
+    {
+      "id": "string-natural-language",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "search",
+      "query": "first characters String",
+      "max_results": 3,
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "source_suffix": "api/data_types/string.rst.txt",
+        "anchor": "string.left",
+        "text_contains": "characters"
+      }
+    },
+    {
+      "id": "web-keyword",
+      "version": "2026r3",
+      "project_type": "web",
+      "platform": "linux",
+      "operation": "search",
+      "query": "LazyLoadDependencies",
+      "max_results": 3,
+      "expected": {
+        "status": "found",
+        "availability": "unknown",
+        "source_suffix": "api/web/websession.rst.txt"
+      }
+    },
+    {
+      "id": "invented-search",
+      "version": "2026r3",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "search",
+      "query": "InventedMilestoneThreeClassXYZ",
+      "max_results": 3,
+      "expected": {
+        "status": "no_match",
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "unregistered-version",
+      "version": "2024r1",
+      "project_type": "desktop",
+      "platform": "macos",
+      "operation": "lookup",
+      "class_name": "String",
+      "member": "Left",
+      "expected": {
+        "status": "error",
+        "availability": "unknown",
+        "error_contains": "not registered"
+      }
+    }
+  ]
+}

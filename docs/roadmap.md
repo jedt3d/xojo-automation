@@ -15,23 +15,20 @@ adapters for other project layouts/targets, and recovery after an OS crash or
 force-kill. A permanently pending IDE reply is quarantined, not automatically
 cancelled. These are not implied by successful Console jobs.
 
-## Next: documentation precision
+## Milestone 3 delivered: documentation precision
 
-- Keep existing member-specific lookup, including the tested inherited property;
-  add explicit source/anchor and version/platform labels in returned results.
-- Per-request version/platform selection, independent of a global XDOX picker.
-- Distinguish runtime target from IDE host and API availability from historical
-  release-note evidence.
-- Source-backed API1/API2 migration and tutorial assessment, using the existing
-  skill's history rather than automatic name replacement.
-- A curated retrieval benchmark spanning Desktop, Web, iOS, Android, Console,
-  inherited members, deprecated APIs, and no-match questions.
+The [read-only documentation adapter](documentation-lookup.md) adds request-level
+version/project/OS selection, source references and conservative availability
+labels over the XDOX index. The [23-case benchmark and report](milestone-3-documentation.md)
+separate retrieval coverage from runtime qualification.
 
-Acceptance: every benchmark answer identifies its selected version/target,
-contains inspectable source evidence, and marks unresolved availability as unknown.
-Evaluate XMCP/XDOX extensions before implementing a parallel search engine.
+Remaining documentation work includes native MCP exposure, applying the same
+scope/provenance guarantees to hybrid/reranked search, and testing multiple real
+installed versions. The current benchmark covers one real 2026r3 corpus and
+synthetic two-version isolation. Notes/MBS/version-independent curated chunks
+need their own provenance contracts before inclusion.
 
-## Packaging and target execution
+## Next: packaging and target execution
 
 - Keep the verified Console bundle target for signature checks. Establish
   Developer ID signing/notarization separately from the passing ad-hoc local check.

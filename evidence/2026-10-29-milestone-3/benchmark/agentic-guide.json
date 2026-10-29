@@ -1,0 +1,175 @@
+{
+  "case": {
+    "id": "agentic-guide",
+    "version": "2026r3",
+    "project_type": "desktop",
+    "platform": "macos",
+    "operation": "search",
+    "query": "Agentic Mode",
+    "max_results": 3,
+    "expected": {
+      "status": "found",
+      "availability": "unknown",
+      "source_suffix": "getting_started/using_the_ide/agentic_mode.rst.txt",
+      "text_contains": "Agentic Mode"
+    }
+  },
+  "result": {
+    "schema": 1,
+    "operation": "search",
+    "request": {
+      "query": "Agentic Mode",
+      "max_results": 3
+    },
+    "corpus": {
+      "id": "2026r3",
+      "label": "Xojo 2026r3",
+      "root": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation",
+      "llms_sha256": "9c5e6184a4ee80477b5097967d2582fc01bccac9361c88185044c7a30b76a094"
+    },
+    "target": {
+      "project_type": "desktop",
+      "platform": "macos",
+      "platform_role": "runtime"
+    },
+    "host": {
+      "system": "Darwin",
+      "architecture": "arm64"
+    },
+    "results": [
+      {
+        "title": "Using AI with Xojo (Agentic Mode) > Using Agentic Mode with an existing project",
+        "kind": "guide",
+        "corpus_version": "Xojo 2026r3",
+        "target": {
+          "project_type": "desktop",
+          "platform": "macos",
+          "platform_role": "runtime"
+        },
+        "availability": "unknown",
+        "availability_basis": "No explicit compatible table; scope is unresolved.",
+        "compatibility": {},
+        "historical_release": null,
+        "compatibility_sources": [],
+        "deprecated": false,
+        "deprecation_notices": [],
+        "source": {
+          "file": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation/_sources/getting_started/using_the_ide/agentic_mode.rst.txt",
+          "relative_file": "_sources/getting_started/using_the_ide/agentic_mode.rst.txt",
+          "line_start": 18,
+          "line_end": 26,
+          "sha256": "17b07cb0f2b3473a593495fe42520ce73aeed2cc35e3e4c18637eb6cbeff0290",
+          "anchor": null,
+          "html_anchor": null,
+          "online_url": "https://documentation.xojo.com/getting_started/using_the_ide/agentic_mode.html",
+          "online_version_warning": "Live website may differ; local file/hash defines this corpus."
+        },
+        "text": "Using Agentic Mode with an existing project\n-------------------------------------------\n\nYou can also switch an existing project to Agentic Mode by choosing **File > Agentic Mode**. The project must already be saved in Xojo Format (the text format), since that is the format AI agents can read and edit.\n\n.. note:: Saving a project in Xojo Format requires a Xojo license.\n\nOnce a project is in Agentic Mode, it remembers the setting. The next time you open the project, it's still in Agentic Mode.\n",
+        "text_truncated": false,
+        "index_hit": {
+          "chunk_id": 152,
+          "title": "Using AI with Xojo (Agentic Mode) > Using Agentic Mode with an existing project",
+          "source": "llms-full.txt > Using AI with Xojo (Agentic Mode)",
+          "docs_version": "Xojo 2026r3",
+          "sha256": "6be41853a095d19a58e8963dcd68fa05e0b9eae6ce5529960a3c9d0d06611f91",
+          "bm25": -21.800662211570607,
+          "mapping": "section",
+          "text_origin": "installed RST; chunk used for ranking only"
+        }
+      },
+      {
+        "title": "Using AI with Xojo (Agentic Mode) > Starting a new project in Agentic Mode",
+        "kind": "guide",
+        "corpus_version": "Xojo 2026r3",
+        "target": {
+          "project_type": "desktop",
+          "platform": "macos",
+          "platform_role": "runtime"
+        },
+        "availability": "unknown",
+        "availability_basis": "No explicit compatible table; scope is unresolved.",
+        "compatibility": {},
+        "historical_release": null,
+        "compatibility_sources": [],
+        "deprecated": false,
+        "deprecation_notices": [],
+        "source": {
+          "file": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation/_sources/getting_started/using_the_ide/agentic_mode.rst.txt",
+          "relative_file": "_sources/getting_started/using_the_ide/agentic_mode.rst.txt",
+          "line_start": 7,
+          "line_end": 17,
+          "sha256": "17b07cb0f2b3473a593495fe42520ce73aeed2cc35e3e4c18637eb6cbeff0290",
+          "anchor": null,
+          "html_anchor": null,
+          "online_url": "https://documentation.xojo.com/getting_started/using_the_ide/agentic_mode.html",
+          "online_version_warning": "Live website may differ; local file/hash defines this corpus."
+        },
+        "text": "Starting a new project in Agentic Mode\n--------------------------------------\n\n1. Launch Xojo. The Project Chooser window appears.\n#. Choose the type of project you want to build: Desktop, Web, iOS, Android or Console.\n#. Check the **for AI (Agentic Mode)** box.\n#. Enter your Application Name and click **Create**.\n#. Save your project when prompted.\n\nXojo creates the project in the text-based Xojo Format and adds instruction files that teach your agent how to work with Xojo projects. That's all the setup Xojo needs. From there, point your AI agent at the project folder and tell it what to build.\n",
+        "text_truncated": false,
+        "index_hit": {
+          "chunk_id": 151,
+          "title": "Using AI with Xojo (Agentic Mode) > Starting a new project in Agentic Mode",
+          "source": "llms-full.txt > Using AI with Xojo (Agentic Mode)",
+          "docs_version": "Xojo 2026r3",
+          "sha256": "ad8b5a45cadc94859624d4d8c085921bb953970371f81ecd080d729d54ce8d10",
+          "bm25": -19.280165782240775,
+          "mapping": "section",
+          "text_origin": "installed RST; chunk used for ranking only"
+        }
+      },
+      {
+        "title": "Using AI with Xojo (Agentic Mode)",
+        "kind": "guide",
+        "corpus_version": "Xojo 2026r3",
+        "target": {
+          "project_type": "desktop",
+          "platform": "macos",
+          "platform_role": "runtime"
+        },
+        "availability": "unknown",
+        "availability_basis": "No explicit compatible table; scope is unresolved.",
+        "compatibility": {},
+        "historical_release": null,
+        "compatibility_sources": [],
+        "deprecated": false,
+        "deprecation_notices": [],
+        "source": {
+          "file": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation/_sources/getting_started/using_the_ide/agentic_mode.rst.txt",
+          "relative_file": "_sources/getting_started/using_the_ide/agentic_mode.rst.txt",
+          "line_start": 3,
+          "line_end": 16,
+          "sha256": "17b07cb0f2b3473a593495fe42520ce73aeed2cc35e3e4c18637eb6cbeff0290",
+          "anchor": null,
+          "html_anchor": null,
+          "online_url": "https://documentation.xojo.com/getting_started/using_the_ide/agentic_mode.html",
+          "online_version_warning": "Live website may differ; local file/hash defines this corpus."
+        },
+        "text": "=================================\n\nXojo's Agentic Mode lets you build your app together with an AI coding agent, such as Claude, Codex, Gemini or Muse. Instead of writing all the code yourself, you describe what you want and the agent edits your project directly, with Xojo picking up the changes as it works.\n\nStarting a new project in Agentic Mode\n--------------------------------------\n\n1. Launch Xojo. The Project Chooser window appears.\n#. Choose the type of project you want to build: Desktop, Web, iOS, Android or Console.\n#. Check the **for AI (Agentic Mode)** box.\n#. Enter your Application Name and click **Create**.\n#. Save your project when prompted.\n\nXojo creates the project in the text-based Xojo Format and adds instruction files that teach your agent how to work with Xojo projects. That's all the setup Xojo needs. From there, point your AI agent at the project folder and tell it what to build.",
+        "text_truncated": false,
+        "index_hit": {
+          "chunk_id": 150,
+          "title": "Using AI with Xojo (Agentic Mode)",
+          "source": "llms-full.txt > Using AI with Xojo (Agentic Mode)",
+          "docs_version": "Xojo 2026r3",
+          "sha256": "6c31a4e07344ed8f1153795091a8769b9fee7585146ffb2b64bc43f0c3670fb8",
+          "bm25": -19.06119785841187,
+          "mapping": "unique_normalized_source_line",
+          "text_origin": "installed RST; chunk used for ranking only"
+        }
+      }
+    ],
+    "availability": "unknown",
+    "status": "found",
+    "limitation": "Documentation evidence only; no target compilation or execution.",
+    "retrieval": {
+      "tier": "xdox_fts5_bm25",
+      "database": "/Users/worajedt/Library/Application Support/dk.o3jvind.xdox/xdox.db",
+      "version_filter": "Xojo 2026r3",
+      "candidate_limit": 200,
+      "includes_version_independent_chunks": false,
+      "excluded_target_mismatches": 0,
+      "unresolved_sources": 0
+    }
+  },
+  "assessment_error": null
+}

@@ -1,5 +1,8 @@
 # User guide
 
+For version/target-sensitive API questions, use the [documentation lookup guide](documentation-lookup.md).
+It adds source provenance to the existing XDOX corpus without changing its global picker.
+
 For the new guarded Console workflow, start with the [coordination guide](coordination.md).
 The commands below also document the original harness and evaluation tools;
 their direct/unguarded paths do not inherit the coordinator's synchronization.

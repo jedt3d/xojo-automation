@@ -1,0 +1,171 @@
+{
+  "recorded_at": "2026-10-29T08:34:14.216081+00:00",
+  "cases_sha256": "7a9d32343d671ff7031b4cd5e8eb0bd74eded1807143a1d8e11a7f265c787907",
+  "total": 23,
+  "passed": 20,
+  "seconds": 2.013,
+  "scope": "Curated documentation retrieval/label/provenance checks; no runtime validation or semantic quality score.",
+  "records": [
+    {
+      "id": "desktop-inherited-macos",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2251,
+      "evidence": "desktop-inherited-macos.json"
+    },
+    {
+      "id": "console-run-macos",
+      "passed": false,
+      "error": "('availability', 'unknown')",
+      "seconds": 0.2182,
+      "evidence": "console-run-macos.json"
+    },
+    {
+      "id": "desktop-inherited-windows",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2011,
+      "evidence": "desktop-inherited-windows.json"
+    },
+    {
+      "id": "console-run-windows",
+      "passed": false,
+      "error": "('availability', 'unknown')",
+      "seconds": 0.1973,
+      "evidence": "console-run-windows.json"
+    },
+    {
+      "id": "desktop-inherited-linux",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2017,
+      "evidence": "desktop-inherited-linux.json"
+    },
+    {
+      "id": "console-run-linux",
+      "passed": false,
+      "error": "('availability', 'unknown')",
+      "seconds": 0.2105,
+      "evidence": "console-run-linux.json"
+    },
+    {
+      "id": "desktop-os-only-macos",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0101,
+      "evidence": "desktop-os-only-macos.json"
+    },
+    {
+      "id": "desktop-os-only-windows",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0092,
+      "evidence": "desktop-os-only-windows.json"
+    },
+    {
+      "id": "desktop-os-only-linux",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0093,
+      "evidence": "desktop-os-only-linux.json"
+    },
+    {
+      "id": "mobile-pressed-ios",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2067,
+      "evidence": "mobile-pressed-ios.json"
+    },
+    {
+      "id": "mobile-pressed-android",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2072,
+      "evidence": "mobile-pressed-android.json"
+    },
+    {
+      "id": "web-lazy-dependencies",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2108,
+      "evidence": "web-lazy-dependencies.json"
+    },
+    {
+      "id": "web-api-wrong-project",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0087,
+      "evidence": "web-api-wrong-project.json"
+    },
+    {
+      "id": "string-characters",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0109,
+      "evidence": "string-characters.json"
+    },
+    {
+      "id": "deprecated-api1",
+      "passed": true,
+      "error": null,
+      "seconds": 0.01,
+      "evidence": "deprecated-api1.json"
+    },
+    {
+      "id": "missing-class",
+      "passed": true,
+      "error": null,
+      "seconds": 0.006,
+      "evidence": "missing-class.json"
+    },
+    {
+      "id": "missing-member",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0066,
+      "evidence": "missing-member.json"
+    },
+    {
+      "id": "agentic-guide",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0083,
+      "evidence": "agentic-guide.json"
+    },
+    {
+      "id": "android-history",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0153,
+      "evidence": "android-history.json"
+    },
+    {
+      "id": "string-natural-language",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0175,
+      "evidence": "string-natural-language.json"
+    },
+    {
+      "id": "web-keyword",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0142,
+      "evidence": "web-keyword.json"
+    },
+    {
+      "id": "invented-search",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0073,
+      "evidence": "invented-search.json"
+    },
+    {
+      "id": "unregistered-version",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0002,
+      "evidence": "unregistered-version.json"
+    }
+  ]
+}

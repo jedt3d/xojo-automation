@@ -1,0 +1,55 @@
+{
+  "case": {
+    "id": "missing-member",
+    "version": "2026r3",
+    "project_type": "desktop",
+    "platform": "macos",
+    "operation": "lookup",
+    "class_name": "String",
+    "member": "InventedMemberXYZ",
+    "expected": {
+      "status": "no_match",
+      "availability": "unknown"
+    }
+  },
+  "result": {
+    "schema": 1,
+    "operation": "lookup",
+    "request": {
+      "class_name": "String",
+      "member": "InventedMemberXYZ"
+    },
+    "corpus": {
+      "id": "2026r3",
+      "label": "Xojo 2026r3",
+      "root": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation",
+      "llms_sha256": "9c5e6184a4ee80477b5097967d2582fc01bccac9361c88185044c7a30b76a094"
+    },
+    "target": {
+      "project_type": "desktop",
+      "platform": "macos",
+      "platform_role": "runtime"
+    },
+    "host": {
+      "system": "Darwin",
+      "architecture": "arm64"
+    },
+    "results": [],
+    "availability": "unknown",
+    "status": "no_match",
+    "limitation": "Documentation evidence only; no target compilation or execution.",
+    "reason": "Member not documented on this page; this does not establish API absence.",
+    "inspected_source": {
+      "file": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation/_sources/api/data_types/string.rst.txt",
+      "relative_file": "_sources/api/data_types/string.rst.txt",
+      "line_start": 1,
+      "line_end": 1898,
+      "sha256": "dff77bf019f266ce6d899095a2caef7504a2d2f8b8dbd484e5dc418c85325ad9",
+      "anchor": null,
+      "html_anchor": null,
+      "online_url": "https://documentation.xojo.com/api/data_types/string.html",
+      "online_version_warning": "Live website may differ; local file/hash defines this corpus."
+    }
+  },
+  "assessment_error": null
+}

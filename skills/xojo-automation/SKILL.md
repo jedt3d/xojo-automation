@@ -55,6 +55,8 @@ No confirmation is needed. Please avoid mouse and keyboard input until I report 
 
 ## Choose A Reference
 
+- Version/target-sensitive documentation lookup in a toolkit checkout: read `references/documentation-lookup.md` for explicit corpus selection, source evidence and benchmark limits.
+
 - An opt-in coordinated Console profile in a toolkit checkout: read `references/coordination.md` for the guarded worker, source stamps, fresh run diagnostics and deadline/cleanup behavior. Other profiles use the existing workflow until validated.
 - XMCP/XDOX selection or Agentic Mode integration: read `references/mcp-evaluation.md` for the tested versions, schemas, synchronization boundaries, and remaining integration work.
 - Real user workflow, Agentic Mode reloads, manual reload fallbacks, and portability: read `references/workflow.md`.

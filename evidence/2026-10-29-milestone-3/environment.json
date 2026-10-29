@@ -1,0 +1,459 @@
+{
+  "recorded_at": "2026-10-29T08:38:07.190918+00:00",
+  "host": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "registry": {
+    "schema": 1,
+    "database": "/Users/worajedt/Library/Application Support/dk.o3jvind.xdox/xdox.db",
+    "corpora": {
+      "2026r3": {
+        "label": "Xojo 2026r3",
+        "root": "/Users/worajedt/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation",
+        "llms_sha256": "9c5e6184a4ee80477b5097967d2582fc01bccac9361c88185044c7a30b76a094"
+      }
+    }
+  },
+  "database_before": {
+    "sha256": "dd51b297f515a54604a738e7025a0334324c2dde59d536b8823a80c190a8eca2",
+    "metadata": {
+      "schema_version": "5",
+      "embedding_model": "nomic-embed-text-v1.5",
+      "embedding_dim": "768",
+      "docs_version": "Xojo 2026r3",
+      "active_docs_version": "Xojo 2026r3",
+      "indexed_at": "2026-10-29T13:19:15Z",
+      "pending_reindex": "0",
+      "pending_version": ""
+    },
+    "counts": [
+      [
+        "",
+        25,
+        25
+      ],
+      [
+        "Xojo 2026r3",
+        16102,
+        16102
+      ]
+    ],
+    "schema": [
+      [
+        "chunks",
+        "CREATE TABLE chunks (\n  id INTEGER PRIMARY KEY AUTOINCREMENT,\n  source TEXT,\n  title TEXT,\n  chunk_text TEXT NOT NULL,\n  embedded INTEGER DEFAULT 0,\n  chunk_index INTEGER DEFAULT 0,\n  prev_id INTEGER,\n  next_id INTEGER,\n  docs_version TEXT NOT NULL DEFAULT ''\n, content_hash TEXT)"
+      ],
+      [
+        "chunks_fts",
+        "CREATE VIRTUAL TABLE chunks_fts USING fts5(\n  title,\n  chunk_text,\n  content='chunks',\n  content_rowid='id'\n)"
+      ],
+      [
+        "metadata",
+        "CREATE TABLE metadata (\n  key TEXT PRIMARY KEY,\n  value TEXT\n)"
+      ]
+    ]
+  },
+  "database_after": {
+    "sha256": "dd51b297f515a54604a738e7025a0334324c2dde59d536b8823a80c190a8eca2",
+    "metadata": {
+      "schema_version": "5",
+      "embedding_model": "nomic-embed-text-v1.5",
+      "embedding_dim": "768",
+      "docs_version": "Xojo 2026r3",
+      "active_docs_version": "Xojo 2026r3",
+      "indexed_at": "2026-10-29T13:19:15Z",
+      "pending_reindex": "0",
+      "pending_version": ""
+    },
+    "counts": [
+      [
+        "",
+        25,
+        25
+      ],
+      [
+        "Xojo 2026r3",
+        16102,
+        16102
+      ]
+    ],
+    "schema": [
+      [
+        "chunks",
+        "CREATE TABLE chunks (\n  id INTEGER PRIMARY KEY AUTOINCREMENT,\n  source TEXT,\n  title TEXT,\n  chunk_text TEXT NOT NULL,\n  embedded INTEGER DEFAULT 0,\n  chunk_index INTEGER DEFAULT 0,\n  prev_id INTEGER,\n  next_id INTEGER,\n  docs_version TEXT NOT NULL DEFAULT ''\n, content_hash TEXT)"
+      ],
+      [
+        "chunks_fts",
+        "CREATE VIRTUAL TABLE chunks_fts USING fts5(\n  title,\n  chunk_text,\n  content='chunks',\n  content_rowid='id'\n)"
+      ],
+      [
+        "metadata",
+        "CREATE TABLE metadata (\n  key TEXT PRIMARY KEY,\n  value TEXT\n)"
+      ]
+    ]
+  },
+  "database_unchanged": true,
+  "services": {
+    "8089": {
+      "state": "not reachable",
+      "detail": "<urlopen error [Errno 61] Connection refused>"
+    },
+    "8093": {
+      "state": "not reachable",
+      "detail": "<urlopen error [Errno 61] Connection refused>"
+    }
+  },
+  "benchmark_exit_code": 0,
+  "benchmark_summary": {
+    "recorded_at": "2026-10-29T08:38:07.083053+00:00",
+    "cases_sha256": "2be234fa306c4e18d2beea0747e39a8b127b23d1d4e3ef78c0fa655f1b95ebe9",
+    "total": 23,
+    "passed": 23,
+    "seconds": 1.989,
+    "scope": "Curated documentation retrieval/label/provenance checks; no runtime validation or semantic quality score.",
+    "records": [
+      {
+        "id": "desktop-inherited-macos",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2265,
+        "evidence": "desktop-inherited-macos.json"
+      },
+      {
+        "id": "console-run-macos",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2002,
+        "evidence": "console-run-macos.json"
+      },
+      {
+        "id": "desktop-inherited-windows",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2043,
+        "evidence": "desktop-inherited-windows.json"
+      },
+      {
+        "id": "console-run-windows",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2077,
+        "evidence": "console-run-windows.json"
+      },
+      {
+        "id": "desktop-inherited-linux",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2097,
+        "evidence": "desktop-inherited-linux.json"
+      },
+      {
+        "id": "console-run-linux",
+        "passed": true,
+        "error": null,
+        "seconds": 0.1999,
+        "evidence": "console-run-linux.json"
+      },
+      {
+        "id": "desktop-os-only-macos",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0097,
+        "evidence": "desktop-os-only-macos.json"
+      },
+      {
+        "id": "desktop-os-only-windows",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0095,
+        "evidence": "desktop-os-only-windows.json"
+      },
+      {
+        "id": "desktop-os-only-linux",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0097,
+        "evidence": "desktop-os-only-linux.json"
+      },
+      {
+        "id": "mobile-pressed-ios",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2024,
+        "evidence": "mobile-pressed-ios.json"
+      },
+      {
+        "id": "mobile-pressed-android",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2006,
+        "evidence": "mobile-pressed-android.json"
+      },
+      {
+        "id": "web-lazy-dependencies",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2067,
+        "evidence": "web-lazy-dependencies.json"
+      },
+      {
+        "id": "web-api-wrong-project",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0087,
+        "evidence": "web-api-wrong-project.json"
+      },
+      {
+        "id": "string-characters",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0101,
+        "evidence": "string-characters.json"
+      },
+      {
+        "id": "deprecated-api1",
+        "passed": true,
+        "error": null,
+        "seconds": 0.011,
+        "evidence": "deprecated-api1.json"
+      },
+      {
+        "id": "missing-class",
+        "passed": true,
+        "error": null,
+        "seconds": 0.006,
+        "evidence": "missing-class.json"
+      },
+      {
+        "id": "missing-member",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0066,
+        "evidence": "missing-member.json"
+      },
+      {
+        "id": "agentic-guide",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0077,
+        "evidence": "agentic-guide.json"
+      },
+      {
+        "id": "android-history",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0155,
+        "evidence": "android-history.json"
+      },
+      {
+        "id": "string-natural-language",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0166,
+        "evidence": "string-natural-language.json"
+      },
+      {
+        "id": "web-keyword",
+        "passed": true,
+        "error": null,
+        "seconds": 0.013,
+        "evidence": "web-keyword.json"
+      },
+      {
+        "id": "invented-search",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0065,
+        "evidence": "invented-search.json"
+      },
+      {
+        "id": "unregistered-version",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0002,
+        "evidence": "unregistered-version.json"
+      }
+    ]
+  },
+  "cleanup": "No IDE operation, model startup, global picker/config change, or persistent worker. XDOX index/metadata unchanged.",
+  "accepted_benchmark": "verified-benchmark/summary.json",
+  "accepted_passed": 23,
+  "accepted_total": 23,
+  "final_database_unchanged": true,
+  "verification_at": "2026-10-29T08:42:56.736044+00:00",
+  "final_services_stopped": true,
+  "remaining_lookup_processes": [],
+  "python": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "sqlite_version": "3.54.1",
+  "accepted_summary": {
+    "recorded_at": "2026-10-29T08:44:46.071572+00:00",
+    "cases_sha256": "2be234fa306c4e18d2beea0747e39a8b127b23d1d4e3ef78c0fa655f1b95ebe9",
+    "total": 23,
+    "passed": 23,
+    "seconds": 2.015,
+    "scope": "Curated documentation retrieval/label/provenance checks; no runtime validation or semantic quality score.",
+    "records": [
+      {
+        "id": "desktop-inherited-macos",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2172,
+        "evidence": "desktop-inherited-macos.json"
+      },
+      {
+        "id": "console-run-macos",
+        "passed": true,
+        "error": null,
+        "seconds": 0.1938,
+        "evidence": "console-run-macos.json"
+      },
+      {
+        "id": "desktop-inherited-windows",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2022,
+        "evidence": "desktop-inherited-windows.json"
+      },
+      {
+        "id": "console-run-windows",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2039,
+        "evidence": "console-run-windows.json"
+      },
+      {
+        "id": "desktop-inherited-linux",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2148,
+        "evidence": "desktop-inherited-linux.json"
+      },
+      {
+        "id": "console-run-linux",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2366,
+        "evidence": "console-run-linux.json"
+      },
+      {
+        "id": "desktop-os-only-macos",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0093,
+        "evidence": "desktop-os-only-macos.json"
+      },
+      {
+        "id": "desktop-os-only-windows",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0091,
+        "evidence": "desktop-os-only-windows.json"
+      },
+      {
+        "id": "desktop-os-only-linux",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0094,
+        "evidence": "desktop-os-only-linux.json"
+      },
+      {
+        "id": "mobile-pressed-ios",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2062,
+        "evidence": "mobile-pressed-ios.json"
+      },
+      {
+        "id": "mobile-pressed-android",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2033,
+        "evidence": "mobile-pressed-android.json"
+      },
+      {
+        "id": "web-lazy-dependencies",
+        "passed": true,
+        "error": null,
+        "seconds": 0.2106,
+        "evidence": "web-lazy-dependencies.json"
+      },
+      {
+        "id": "web-api-wrong-project",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0083,
+        "evidence": "web-api-wrong-project.json"
+      },
+      {
+        "id": "string-characters",
+        "passed": true,
+        "error": null,
+        "seconds": 0.01,
+        "evidence": "string-characters.json"
+      },
+      {
+        "id": "deprecated-api1",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0093,
+        "evidence": "deprecated-api1.json"
+      },
+      {
+        "id": "missing-class",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0058,
+        "evidence": "missing-class.json"
+      },
+      {
+        "id": "missing-member",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0062,
+        "evidence": "missing-member.json"
+      },
+      {
+        "id": "agentic-guide",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0076,
+        "evidence": "agentic-guide.json"
+      },
+      {
+        "id": "android-history",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0145,
+        "evidence": "android-history.json"
+      },
+      {
+        "id": "string-natural-language",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0166,
+        "evidence": "string-natural-language.json"
+      },
+      {
+        "id": "web-keyword",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0131,
+        "evidence": "web-keyword.json"
+      },
+      {
+        "id": "invented-search",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0066,
+        "evidence": "invented-search.json"
+      },
+      {
+        "id": "unregistered-version",
+        "passed": true,
+        "error": null,
+        "seconds": 0.0002,
+        "evidence": "unregistered-version.json"
+      }
+    ]
+  },
+  "automated_tests_passed": 49
+}

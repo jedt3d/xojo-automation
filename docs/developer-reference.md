@@ -1,5 +1,29 @@
 # Developer reference
 
+## Milestone-3 documentation adapter
+
+`xdox_lookup.py` opens XDOX's existing database with `mode=ro` and
+`query_only`, filters FTS5 candidates by the request's registered corpus label,
+and resolves unique page/member/heading or normalized source-line mappings.
+RST supplies authoritative returned text; indexed chunks supply ranking cues.
+The source catalog is in memory and is discarded with the process.
+
+A corpus registry binds local paths and the `llms-full.txt` fingerprint. Directory
+labels and indexed-version presence are checked; it does not certify vendor
+origin or freshness of the whole database. Source hashes describe returned
+installed text, and changed cached sources fail explicitly. No query reads the
+active-version picker or personal notes. Version-independent migration chunks
+are excluded rather than mislabeled as official versioned reference.
+
+`benchmark_docs.py` checks the curated contract in `benchmarks/documentation-cases.json`
+and retains each request, expected outcome, result and assessment. It verifies
+actual local bytes, hashes, ranges and anchors, plus expected target/version and
+relevance. The first benchmark attempt is evidence too: changed gold expectations
+need a source-backed rationale. Tests use synthetic two-version indexes; live
+corpus coverage remains separate. See [lookup semantics](documentation-lookup.md)
+and the [milestone report](milestone-3-documentation.md).
+
+
 ## Milestone-2 coordination layer
 
 `scripts/xojo_coordinator.py` is the client/worker entrypoint. `coordination.py`

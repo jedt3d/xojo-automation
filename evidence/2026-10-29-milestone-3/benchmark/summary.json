@@ -1,0 +1,171 @@
+{
+  "recorded_at": "2026-10-29T08:35:08.574563+00:00",
+  "cases_sha256": "2be234fa306c4e18d2beea0747e39a8b127b23d1d4e3ef78c0fa655f1b95ebe9",
+  "total": 23,
+  "passed": 23,
+  "seconds": 2.045,
+  "scope": "Curated documentation retrieval/label/provenance checks; no runtime validation or semantic quality score.",
+  "records": [
+    {
+      "id": "desktop-inherited-macos",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2256,
+      "evidence": "desktop-inherited-macos.json"
+    },
+    {
+      "id": "console-run-macos",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2046,
+      "evidence": "console-run-macos.json"
+    },
+    {
+      "id": "desktop-inherited-windows",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2197,
+      "evidence": "desktop-inherited-windows.json"
+    },
+    {
+      "id": "console-run-windows",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2175,
+      "evidence": "console-run-windows.json"
+    },
+    {
+      "id": "desktop-inherited-linux",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2101,
+      "evidence": "desktop-inherited-linux.json"
+    },
+    {
+      "id": "console-run-linux",
+      "passed": true,
+      "error": null,
+      "seconds": 0.1995,
+      "evidence": "console-run-linux.json"
+    },
+    {
+      "id": "desktop-os-only-macos",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0095,
+      "evidence": "desktop-os-only-macos.json"
+    },
+    {
+      "id": "desktop-os-only-windows",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0095,
+      "evidence": "desktop-os-only-windows.json"
+    },
+    {
+      "id": "desktop-os-only-linux",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0094,
+      "evidence": "desktop-os-only-linux.json"
+    },
+    {
+      "id": "mobile-pressed-ios",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2157,
+      "evidence": "mobile-pressed-ios.json"
+    },
+    {
+      "id": "mobile-pressed-android",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2144,
+      "evidence": "mobile-pressed-android.json"
+    },
+    {
+      "id": "web-lazy-dependencies",
+      "passed": true,
+      "error": null,
+      "seconds": 0.2084,
+      "evidence": "web-lazy-dependencies.json"
+    },
+    {
+      "id": "web-api-wrong-project",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0085,
+      "evidence": "web-api-wrong-project.json"
+    },
+    {
+      "id": "string-characters",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0106,
+      "evidence": "string-characters.json"
+    },
+    {
+      "id": "deprecated-api1",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0098,
+      "evidence": "deprecated-api1.json"
+    },
+    {
+      "id": "missing-class",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0062,
+      "evidence": "missing-class.json"
+    },
+    {
+      "id": "missing-member",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0061,
+      "evidence": "missing-member.json"
+    },
+    {
+      "id": "agentic-guide",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0083,
+      "evidence": "agentic-guide.json"
+    },
+    {
+      "id": "android-history",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0151,
+      "evidence": "android-history.json"
+    },
+    {
+      "id": "string-natural-language",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0162,
+      "evidence": "string-natural-language.json"
+    },
+    {
+      "id": "web-keyword",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0129,
+      "evidence": "web-keyword.json"
+    },
+    {
+      "id": "invented-search",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0069,
+      "evidence": "invented-search.json"
+    },
+    {
+      "id": "unregistered-version",
+      "passed": true,
+      "error": null,
+      "seconds": 0.0002,
+      "evidence": "unregistered-version.json"
+    }
+  ]
+}

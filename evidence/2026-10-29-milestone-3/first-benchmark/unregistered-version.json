@@ -1,0 +1,29 @@
+{
+  "case": {
+    "id": "unregistered-version",
+    "version": "2024r1",
+    "project_type": "desktop",
+    "platform": "macos",
+    "operation": "lookup",
+    "class_name": "String",
+    "member": "Left",
+    "expected": {
+      "status": "error",
+      "availability": "unknown",
+      "error_contains": "not registered"
+    }
+  },
+  "result": {
+    "status": "error",
+    "availability": "unknown",
+    "error": "Requested corpus is not registered: 2024r1",
+    "corpus": {
+      "id": "2024r1"
+    },
+    "target": {
+      "project_type": "desktop",
+      "platform": "macos"
+    }
+  },
+  "assessment_error": null
+}

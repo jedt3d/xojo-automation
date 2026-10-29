@@ -1,0 +1,17 @@
+test_converter_returns_before_full_socket_timeout (test_xojo_ipc.IpcCompletionTests.test_converter_returns_before_full_socket_timeout) ... ok
+test_harness_returns_after_terminal_response_quiet_window (test_xojo_ipc.IpcCompletionTests.test_harness_returns_after_terminal_response_quiet_window) ... ok
+test_harness_timeout_without_terminal_response (test_xojo_ipc.IpcCompletionTests.test_harness_timeout_without_terminal_response) ... ok
+test_open_confirmation_accepts_observed_shell_escaped_path (test_xojo_ipc.ProjectPreparationTests.test_open_confirmation_accepts_observed_shell_escaped_path) ... ok
+test_open_confirmation_preserves_literal_paths_and_rejects_multiple_words (test_xojo_ipc.ProjectPreparationTests.test_open_confirmation_preserves_literal_paths_and_rejects_multiple_words) ... ok
+test_open_confirmation_requires_expected_project (test_xojo_ipc.ProjectPreparationTests.test_open_confirmation_requires_expected_project) ... ok
+test_open_timeout_uses_finder_fallback (test_xojo_ipc.ProjectPreparationTests.test_open_timeout_uses_finder_fallback) ... ok
+test_script_error_is_not_success (test_xojo_ipc.ProjectPreparationTests.test_script_error_is_not_success) ... ok
+test_skip_policy_rejects_wrong_or_unconfirmed_project (test_xojo_ipc.ProjectPreparationTests.test_skip_policy_rejects_wrong_or_unconfirmed_project) ... ok
+test_skip_policy_verifies_project_without_close_or_open (test_xojo_ipc.ProjectPreparationTests.test_skip_policy_verifies_project_without_close_or_open) ... ok
+test_bound_timeout_never_exceeds_remaining_lease (test_xojo_runtime.GuiLeaseTests.test_bound_timeout_never_exceeds_remaining_lease) ... ok
+test_lease_is_exclusive_and_reusable (test_xojo_runtime.GuiLeaseTests.test_lease_is_exclusive_and_reusable) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.485s
+
+OK

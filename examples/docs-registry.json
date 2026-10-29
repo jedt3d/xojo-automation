@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "database": "~/Library/Application Support/dk.o3jvind.xdox/xdox.db",
+  "corpora": {
+    "2026r3": {
+      "label": "Xojo 2026r3",
+      "root": "~/Library/Application Support/Xojo/Xojo/Xojo 2026r3/Documentation",
+      "llms_sha256": "9c5e6184a4ee80477b5097967d2582fc01bccac9361c88185044c7a30b76a094"
+    }
+  }
+}

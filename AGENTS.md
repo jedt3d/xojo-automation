@@ -4,6 +4,11 @@ This repository contains a Xojo development skill, automation helpers, and a
 bounded evaluation of XMCP/XDOX. Read `README.md` for scope and
 `docs/milestone-1-evaluation.md` before extending an evaluated capability.
 
+For version/target-sensitive documentation work, read `docs/documentation-lookup.md`.
+Use the registered corpus and cite source locations; run `scripts/benchmark_docs.py`
+when changing retrieval or provenance behavior. Keep documentation retrieval
+coverage separate from target execution and semantic-search quality.
+
 For coordinated jobs, read `docs/coordination.md` and the milestone-2 report.
 Use `fixtures/coordinated-smoke` for those live tests. Its working files change
 during the suite; unit fixtures must stay independent of that state.

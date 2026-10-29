@@ -3,6 +3,11 @@
 Tools and a Codex skill for developing Xojo applications with version-aware
 documentation, text project editing, Agentic Mode, and IDE diagnostics.
 
+Milestone 3 adds [versioned documentation lookup](docs/documentation-lookup.md)
+over the existing XDOX index, with per-request target labels, local source
+references and a cross-platform retrieval benchmark. See the
+[milestone-3 report](docs/milestone-3-documentation.md) for tested scope and gaps.
+
 Milestone 2 adds a coordination worker over **XMCP 1.11.0**, tested with **Xojo
 2026r3 on macOS ARM64**. It verifies project/revision identity, waits for Agentic
 reloads, isolates run diagnostics, and cleans up after success, failure, or
@@ -23,9 +28,10 @@ See the [coordination guide](docs/coordination.md) and
 - Build and execute a universal macOS Console fixture; both architectures are
   present, with execution tested on ARM64.
 
-Important limits: documentation version/platform selection needs stronger
-guarantees, and other target/profile combinations remain unqualified. A stuck
-IPC request is drained or quarantined, not forcibly disconnected.
+Important limits: native XMCP documentation calls retain their global-version
+contract; the new scoped CLI uses the keyword tier. Other target/profile
+combinations remain unqualified. A stuck IPC request is drained or quarantined,
+not forcibly disconnected.
 The [milestone-1 evaluation](docs/milestone-1-evaluation.md) retains the original
 XMCP/XDOX findings and documentation-search results.
 
@@ -34,7 +40,8 @@ XMCP/XDOX findings and documentation-search results.
 1. Read the [user guide](docs/user-guide.md) for setup, daily workflow, and recovery.
 2. Read the [developer reference](docs/developer-reference.md) to reproduce or
    extend the evaluation.
-3. Inspect [coordination evidence](evidence/2026-10-29-milestone-2/validation.json),
+3. Inspect [documentation evidence](evidence/2026-10-29-milestone-3/),
+   [coordination evidence](evidence/2026-10-29-milestone-2/validation.json),
    [original evaluation evidence](evidence/2026-10-29/), and [pinned upstream versions](upstreams.json).
 4. Use the [next-milestone backlog](docs/roadmap.md) to choose follow-up work.
 
@@ -45,6 +52,9 @@ XMCP/XDOX findings and documentation-search results.
 | `skills/xojo-automation/` | Packaged existing skill, references, Python harness, and tests |
 | `scripts/mcp_probe.py` | Explicit stdio MCP evaluation client; does not register a server |
 | `scripts/inspect_xdox.py` | Read-only index, model, and service readiness inspection |
+| `scripts/xdox_lookup.py` | Read-only version/target-scoped XDOX lookup with source provenance |
+| `scripts/benchmark_docs.py` | Curated retrieval/label/source validation runner |
+| `benchmarks/` | Versioned benchmark questions and expected evidence |
 | `scripts/xojo_coordinator.py` | Guarded Analyze/Run jobs, status, waiting and cancellation |
 | `fixtures/coordinated-smoke/` | Opt-in runtime probe, profile and milestone-2 Console fixture |
 | `fixtures/agentic-smoke/` | IDE-created, Agentic Mode Console test project |
@@ -67,6 +77,7 @@ python3 -m unittest discover -s skills/xojo-automation/tests -v
 python3 skills/xojo-automation/scripts/xojo_harness.py --help
 python3 scripts/mcp_probe.py --help
 python3 scripts/xojo_coordinator.py --help
+python3 scripts/xdox_lookup.py --help
 ```
 
 IDE operations require a running, licensed Xojo installation and a suitable
